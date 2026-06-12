@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>mitsubishi-regional-jet-mrj-.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/mitsubishi-regional-jet-mrj-.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>33</xmin>
+            <ymin>232</ymin>
+            <xmax>864</xmax>
+            <ymax>492</ymax>
+        </bndbox>
+    </object>
+</annotation>

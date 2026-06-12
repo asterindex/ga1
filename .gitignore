@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific - outputs (mostly ignored, except model history)
+output/*.log
+output/best_model.json
+# Keep output/model_history/ - this is important for analysis!
+# Keep output/*.png - visualizations for analysis
+
+checkpoints/
+model_history/
+results/
+*.pkl
+
+# Article (track .md and .txt, ignore drafts)
+article/*.docx
+article/.DS_Store
+article/~$*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Core ML
+*.mlmodel
+*.mlpackage
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Server experiments
+experiments_*/
+results_*/
+output_server/
+
+# Datasets (large files)
+data/
+military_*/
+*.zip
+*.record
+*.record
+*.record

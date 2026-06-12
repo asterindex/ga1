@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>pakistan_national_day_27933.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/pakistan_national_day_27933.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>5324</width>
+        <height>3576</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>154</xmin>
+            <ymin>324</ymin>
+            <xmax>5261</xmax>
+            <ymax>3513</ymax>
+        </bndbox>
+    </object>
+</annotation>

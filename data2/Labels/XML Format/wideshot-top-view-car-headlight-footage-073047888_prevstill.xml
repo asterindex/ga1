@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>wideshot-top-view-car-headlight-footage-073047888_prevstill.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/wideshot-top-view-car-headlight-footage-073047888_prevstill.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>322</xmin>
+            <ymin>514</ymin>
+            <xmax>952</xmax>
+            <ymax>796</ymax>
+        </bndbox>
+    </object>
+</annotation>

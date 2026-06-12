@@ -1,0 +1,910 @@
+{
+  "validation_date": "2026-04-03T22:27:41.043234",
+  "total_models": 128,
+  "successful": 122,
+  "failed": 6,
+  "results": [
+    {
+      "model_id": "gen0_model0",
+      "original_fitness": 0.9536290168762207,
+      "validated_accuracy": 0.9536290168762207,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model1",
+      "original_fitness": 0.9274193644523621,
+      "validated_accuracy": 0.9274193644523621,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model2",
+      "original_fitness": 0.9495967626571655,
+      "validated_accuracy": 0.9495967626571655,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model3",
+      "original_fitness": 0.8145161271095276,
+      "validated_accuracy": 0.8145161271095276,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model4",
+      "original_fitness": 0.29032257199287415,
+      "validated_accuracy": 0.29032257199287415,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model5",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model6",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model7",
+      "original_fitness": 0.4334677457809448,
+      "validated_accuracy": 0.002016128972172737,
+      "difference": -0.4314516168087721,
+      "status": "❌ ВІДРІЗНЯЄТЬСЯ"
+    },
+    {
+      "model_id": "gen1_model0",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model1",
+      "original_fitness": 0.9294354915618896,
+      "validated_accuracy": 0.9294354915618896,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model2",
+      "original_fitness": 0.9294354915618896,
+      "validated_accuracy": 0.9294354915618896,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model3",
+      "original_fitness": 0.23790322244167328,
+      "validated_accuracy": 0.14919355511665344,
+      "difference": -0.08870966732501984,
+      "status": "❌ ВІДРІЗНЯЄТЬСЯ"
+    },
+    {
+      "model_id": "gen1_model4",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model5",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model6",
+      "original_fitness": 0.22177419066429138,
+      "validated_accuracy": 0.22177419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model7",
+      "original_fitness": 0.9012096524238586,
+      "validated_accuracy": 0.9012096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model0",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model1",
+      "original_fitness": 0.9596773982048035,
+      "validated_accuracy": 0.9596773982048035,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model2",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model3",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model4",
+      "original_fitness": 0.9576612710952759,
+      "validated_accuracy": 0.9576612710952759,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model5",
+      "original_fitness": 0.9576612710952759,
+      "validated_accuracy": 0.9576612710952759,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model6",
+      "original_fitness": 0.9495967626571655,
+      "validated_accuracy": 0.9495967626571655,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen2_model7",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model0",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model1",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model2",
+      "original_fitness": 0.9556451439857483,
+      "validated_accuracy": 0.9556451439857483,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model3",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model4",
+      "original_fitness": 0.961693525314331,
+      "validated_accuracy": 0.961693525314331,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model5",
+      "original_fitness": 0.9334677457809448,
+      "validated_accuracy": 0.9334677457809448,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model6",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen3_model7",
+      "original_fitness": 0.9375,
+      "validated_accuracy": 0.9375,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model0",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model1",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model2",
+      "original_fitness": 0.961693525314331,
+      "validated_accuracy": 0.961693525314331,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model3",
+      "original_fitness": 0.9536290168762207,
+      "validated_accuracy": 0.9536290168762207,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model4",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model5",
+      "original_fitness": 0.8850806355476379,
+      "validated_accuracy": 0.8850806355476379,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model6",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen4_model7",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model0",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model1",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model2",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model3",
+      "original_fitness": 0.9495967626571655,
+      "validated_accuracy": 0.9495967626571655,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model4",
+      "original_fitness": 0.6048387289047241,
+      "validated_accuracy": 0.6048387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model5",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model6",
+      "original_fitness": 0.8729838728904724,
+      "validated_accuracy": 0.8729838728904724,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen5_model7",
+      "original_fitness": 0.9112903475761414,
+      "validated_accuracy": 0.9112903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model0",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model1",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model2",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model3",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model4",
+      "original_fitness": 0.9596773982048035,
+      "validated_accuracy": 0.9596773982048035,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model5",
+      "original_fitness": 0.961693525314331,
+      "validated_accuracy": 0.961693525314331,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model6",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen6_model7",
+      "original_fitness": 0.9536290168762207,
+      "validated_accuracy": 0.9536290168762207,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model0",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model1",
+      "original_fitness": 0.9092742204666138,
+      "validated_accuracy": 0.9092742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model2",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model3",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model4",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model5",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model6",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen7_model7",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model1",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model2",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model3",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model4",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model5",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen8_model6",
+      "original_fitness": 0.0,
+      "validated_accuracy": null,
+      "difference": null,
+      "status": "❌ ПОМИЛКА",
+      "error": "in user code:\n\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1972, in test_function  *\n        return step_function(self, iterator)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1956, in step_function  **\n        outputs = model.distribute_strategy.run(run_step, args=(data,))\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1944, in run_step  **\n        outputs = model.test_step(data)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1850, in test_step\n        y_pred = self(x, training=False)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py\", line 70, in error_handler\n        raise e.with_traceback(filtered_tb) from None\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/input_spec.py\", line 298, in assert_input_compatibility\n        raise ValueError(\n\n    ValueError: Input 0 of layer \"sequential\" is incompatible with the layer: expected shape=(None, 32, 32, 3), found shape=(16, 64, 64, 3)\n"
+    },
+    {
+      "model_id": "gen8_model7",
+      "original_fitness": 0.9657257795333862,
+      "validated_accuracy": 0.9657257795333862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model1",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model2",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model3",
+      "original_fitness": 0.0,
+      "validated_accuracy": null,
+      "difference": null,
+      "status": "❌ ПОМИЛКА",
+      "error": "in user code:\n\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1972, in test_function  *\n        return step_function(self, iterator)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1956, in step_function  **\n        outputs = model.distribute_strategy.run(run_step, args=(data,))\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1944, in run_step  **\n        outputs = model.test_step(data)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1850, in test_step\n        y_pred = self(x, training=False)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py\", line 70, in error_handler\n        raise e.with_traceback(filtered_tb) from None\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/input_spec.py\", line 298, in assert_input_compatibility\n        raise ValueError(\n\n    ValueError: Input 0 of layer \"sequential\" is incompatible with the layer: expected shape=(None, 32, 32, 3), found shape=(16, 64, 64, 3)\n"
+    },
+    {
+      "model_id": "gen9_model4",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model5",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model6",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen9_model7",
+      "original_fitness": 0.9193548560142517,
+      "validated_accuracy": 0.9193548560142517,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen10_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen10_model1",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen10_model2",
+      "original_fitness": 0.0,
+      "validated_accuracy": null,
+      "difference": null,
+      "status": "❌ ПОМИЛКА",
+      "error": "in user code:\n\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1972, in test_function  *\n        return step_function(self, iterator)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1956, in step_function  **\n        outputs = model.distribute_strategy.run(run_step, args=(data,))\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1944, in run_step  **\n        outputs = model.test_step(data)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1850, in test_step\n        y_pred = self(x, training=False)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py\", line 70, in error_handler\n        raise e.with_traceback(filtered_tb) from None\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/input_spec.py\", line 298, in assert_input_compatibility\n        raise ValueError(\n\n    ValueError: Input 0 of layer \"sequential\" is incompatible with the layer: expected shape=(None, 32, 32, 3), found shape=(16, 64, 64, 3)\n"
+    },
+    {
+      "model_id": "gen10_model3",
+      "original_fitness": 0.0,
+      "validated_accuracy": null,
+      "difference": null,
+      "status": "❌ ПОМИЛКА",
+      "error": "in user code:\n\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1972, in test_function  *\n        return step_function(self, iterator)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1956, in step_function  **\n        outputs = model.distribute_strategy.run(run_step, args=(data,))\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1944, in run_step  **\n        outputs = model.test_step(data)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1850, in test_step\n        y_pred = self(x, training=False)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py\", line 70, in error_handler\n        raise e.with_traceback(filtered_tb) from None\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/input_spec.py\", line 298, in assert_input_compatibility\n        raise ValueError(\n\n    ValueError: Input 0 of layer \"sequential\" is incompatible with the layer: expected shape=(None, 32, 32, 3), found shape=(16, 64, 64, 3)\n"
+    },
+    {
+      "model_id": "gen10_model4",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen10_model5",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen10_model6",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen10_model7",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model1",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model2",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model3",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model4",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model5",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model6",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen11_model7",
+      "original_fitness": 0.9657257795333862,
+      "validated_accuracy": 0.9657257795333862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model1",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model2",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model3",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model4",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model5",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model6",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen12_model7",
+      "original_fitness": 0.0,
+      "validated_accuracy": null,
+      "difference": null,
+      "status": "❌ ПОМИЛКА",
+      "error": "in user code:\n\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1972, in test_function  *\n        return step_function(self, iterator)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1956, in step_function  **\n        outputs = model.distribute_strategy.run(run_step, args=(data,))\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1944, in run_step  **\n        outputs = model.test_step(data)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1850, in test_step\n        y_pred = self(x, training=False)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py\", line 70, in error_handler\n        raise e.with_traceback(filtered_tb) from None\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/input_spec.py\", line 298, in assert_input_compatibility\n        raise ValueError(\n\n    ValueError: Input 0 of layer \"sequential\" is incompatible with the layer: expected shape=(None, 32, 32, 3), found shape=(16, 64, 64, 3)\n"
+    },
+    {
+      "model_id": "gen13_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model1",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model2",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model3",
+      "original_fitness": 0.9778226017951965,
+      "validated_accuracy": 0.9778226017951965,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model4",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model5",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model6",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen13_model7",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model1",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model2",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model3",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model4",
+      "original_fitness": 0.9677419066429138,
+      "validated_accuracy": 0.9677419066429138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model5",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model6",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen14_model7",
+      "original_fitness": 0.0,
+      "validated_accuracy": null,
+      "difference": null,
+      "status": "❌ ПОМИЛКА",
+      "error": "in user code:\n\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1972, in test_function  *\n        return step_function(self, iterator)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1956, in step_function  **\n        outputs = model.distribute_strategy.run(run_step, args=(data,))\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1944, in run_step  **\n        outputs = model.test_step(data)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/training.py\", line 1850, in test_step\n        y_pred = self(x, training=False)\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py\", line 70, in error_handler\n        raise e.with_traceback(filtered_tb) from None\n    File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/keras/src/engine/input_spec.py\", line 298, in assert_input_compatibility\n        raise ValueError(\n\n    ValueError: Input 0 of layer \"sequential\" is incompatible with the layer: expected shape=(None, 32, 32, 3), found shape=(16, 64, 64, 3)\n"
+    },
+    {
+      "model_id": "gen15_model0",
+      "original_fitness": 0.9858871102333069,
+      "validated_accuracy": 0.9858871102333069,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model1",
+      "original_fitness": 0.9697580933570862,
+      "validated_accuracy": 0.9697580933570862,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model2",
+      "original_fitness": 0.9798387289047241,
+      "validated_accuracy": 0.9798387289047241,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model3",
+      "original_fitness": 0.9737903475761414,
+      "validated_accuracy": 0.9737903475761414,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model4",
+      "original_fitness": 0.9818548560142517,
+      "validated_accuracy": 0.9818548560142517,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model5",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model6",
+      "original_fitness": 0.975806474685669,
+      "validated_accuracy": 0.975806474685669,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen15_model7",
+      "original_fitness": 0.9475806355476379,
+      "validated_accuracy": 0.9475806355476379,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  genetic-nas:
+    build: .
+    image: genetic-nas:latest
+    container_name: genetic-nas
+    
+    # GPU support
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    
+    # Volumes for persistent data
+    volumes:
+      - ./output:/app/output
+      - ./src:/app/src
+      - ./article:/app/article
+    
+    # Environment
+    environment:
+      - TF_FORCE_GPU_ALLOW_GROWTH=true
+      - TF_CPP_MIN_LOG_LEVEL=2
+      - CUDA_VISIBLE_DEVICES=0
+    
+    # Command can be overridden
+    # docker-compose run genetic-nas python3 main.py --mode full --phase-1-generations 10 --phase-2-generations 100

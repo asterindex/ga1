@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>set-of-vector-cars-top-view-P5Y89P.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/set-of-vector-cars-top-view-P5Y89P.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>965</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>494</xmin>
+            <ymin>78</ymin>
+            <xmax>806</xmax>
+            <ymax>753</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>936</xmin>
+            <ymin>117</ymin>
+            <xmax>1248</xmax>
+            <ymax>761</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>57</xmin>
+            <ymin>107</ymin>
+            <xmax>353</xmax>
+            <ymax>753</ymax>
+        </bndbox>
+    </object>
+</annotation>

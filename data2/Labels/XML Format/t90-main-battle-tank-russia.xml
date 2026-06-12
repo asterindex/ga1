@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>t90-main-battle-tank-russia.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/t90-main-battle-tank-russia.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>550</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>120</xmin>
+            <ymin>90</ymin>
+            <xmax>778</xmax>
+            <ymax>464</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>images81(11).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/images81(11).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>218</width>
+        <height>231</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>64</xmin>
+            <ymin>28</ymin>
+            <xmax>97</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>158</xmin>
+            <ymin>6</ymin>
+            <xmax>201</xmax>
+            <ymax>42</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>153</xmin>
+            <ymin>49</ymin>
+            <xmax>208</xmax>
+            <ymax>106</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>155</xmin>
+            <ymin>111</ymin>
+            <xmax>202</xmax>
+            <ymax>153</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>152</xmin>
+            <ymin>164</ymin>
+            <xmax>204</xmax>
+            <ymax>212</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,81 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>india-arunachal-pradesh-tenga-cantonment-army-recovery-truck-recovering-CC74CB.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/india-arunachal-pradesh-tenga-cantonment-army-recovery-truck-recovering-CC74CB.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>956</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>117</xmin>
+            <ymin>179</ymin>
+            <xmax>719</xmax>
+            <ymax>792</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>773</xmin>
+            <ymin>457</ymin>
+            <xmax>932</xmax>
+            <ymax>657</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>848</xmin>
+            <ymin>407</ymin>
+            <xmax>965</xmax>
+            <ymax>592</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>699</xmin>
+            <ymin>423</ymin>
+            <xmax>728</xmax>
+            <ymax>620</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>688</xmin>
+            <ymin>416</ymin>
+            <xmax>811</xmax>
+            <ymax>631</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1088</xmin>
+            <ymin>413</ymin>
+            <xmax>1151</xmax>
+            <ymax>507</ymax>
+        </bndbox>
+    </object>
+</annotation>

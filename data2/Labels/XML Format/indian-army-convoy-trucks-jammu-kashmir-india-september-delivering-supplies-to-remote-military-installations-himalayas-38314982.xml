@@ -1,0 +1,92 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>indian-army-convoy-trucks-jammu-kashmir-india-september-delivering-supplies-to-remote-military-installations-himalayas-38314982.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/indian-army-convoy-trucks-jammu-kashmir-india-september-delivering-supplies-to-remote-military-installations-himalayas-38314982.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>957</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>916</xmin>
+            <ymin>507</ymin>
+            <xmax>1130</xmax>
+            <ymax>677</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>611</xmin>
+            <ymin>455</ymin>
+            <xmax>861</xmax>
+            <ymax>662</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>431</xmin>
+            <ymin>451</ymin>
+            <xmax>582</xmax>
+            <ymax>637</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>256</xmin>
+            <ymin>412</ymin>
+            <xmax>389</xmax>
+            <ymax>632</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>105</xmin>
+            <ymin>405</ymin>
+            <xmax>235</xmax>
+            <ymax>630</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>370</ymin>
+            <xmax>113</xmax>
+            <ymax>623</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>794</xmin>
+            <ymin>651</ymin>
+            <xmax>1002</xmax>
+            <ymax>825</ymax>
+        </bndbox>
+    </object>
+</annotation>

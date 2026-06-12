@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>night-car-red-vehicle-top-view-Ferrari-light-supercar-screenshot-gtb-computer-wallpaper-automotive-design-race-track-488-554643.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/night-car-red-vehicle-top-view-Ferrari-light-supercar-screenshot-gtb-computer-wallpaper-automotive-design-race-track-488-554643.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2048</width>
+        <height>1269</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>224</xmin>
+            <ymin>353</ymin>
+            <xmax>817</xmax>
+            <ymax>999</ymax>
+        </bndbox>
+    </object>
+</annotation>

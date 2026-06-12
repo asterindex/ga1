@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-12T05:43:37.623478",
+    "top_n": 3
+  },
+  "results": {
+    "data_baseline": [
+      {
+        "model_id": "gen0_model0",
+        "exp_dir": "data_baseline",
+        "dataset": "data",
+        "original_fitness": 0.9737903475761414,
+        "test_accuracy": 0.9737903475761414,
+        "test_loss": 0.11580108851194382,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen1_model0",
+        "exp_dir": "data_baseline",
+        "dataset": "data",
+        "original_fitness": 0.9737903475761414,
+        "test_accuracy": 0.9737903475761414,
+        "test_loss": 0.11580108851194382,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen2_model0",
+        "exp_dir": "data_baseline",
+        "dataset": "data",
+        "original_fitness": 0.9737903475761414,
+        "test_accuracy": 0.9737903475761414,
+        "test_loss": 0.11580108851194382,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      }
+    ],
+    "data_warmstart": [
+      {
+        "model_id": "gen7_model6",
+        "exp_dir": "data_warmstart",
+        "dataset": "data",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.04782530665397644,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen8_model0",
+        "exp_dir": "data_warmstart",
+        "dataset": "data",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.04782530665397644,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen9_model0",
+        "exp_dir": "data_warmstart",
+        "dataset": "data",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.04782530665397644,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      }
+    ],
+    "data_pareto": [
+      {
+        "model_id": "gen0_model3",
+        "exp_dir": "data_pareto",
+        "dataset": "data",
+        "original_fitness": 0.9798387289047241,
+        "test_accuracy": 0.9798387289047241,
+        "test_loss": 0.15903033316135406,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen1_model0",
+        "exp_dir": "data_pareto",
+        "dataset": "data",
+        "original_fitness": 0.9798387289047241,
+        "test_accuracy": 0.9798387289047241,
+        "test_loss": 0.15903033316135406,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen2_model0",
+        "exp_dir": "data_pareto",
+        "dataset": "data",
+        "original_fitness": 0.9798387289047241,
+        "test_accuracy": 0.9798387289047241,
+        "test_loss": 0.15903033316135406,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      }
+    ],
+    "data2_baseline": [
+      {
+        "model_id": "gen7_model4",
+        "exp_dir": "data2_baseline",
+        "dataset": "data2",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.38370785117149353,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen8_model0",
+        "exp_dir": "data2_baseline",
+        "dataset": "data2",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.38370785117149353,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen8_model6",
+        "exp_dir": "data2_baseline",
+        "dataset": "data2",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.38370785117149353,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      }
+    ],
+    "data2_warmstart": [
+      {
+        "model_id": "gen3_model2",
+        "exp_dir": "data2_warmstart",
+        "dataset": "data2",
+        "original_fitness": 0.9959677457809448,
+        "test_accuracy": 0.9959677457809448,
+        "test_loss": 0.16540862619876862,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen4_model0",
+        "exp_dir": "data2_warmstart",
+        "dataset": "data2",
+        "original_fitness": 0.9959677457809448,
+        "test_accuracy": 0.9959677457809448,
+        "test_loss": 0.16540862619876862,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen4_model8",
+        "exp_dir": "data2_warmstart",
+        "dataset": "data2",
+        "original_fitness": 0.9959677457809448,
+        "test_accuracy": 0.9959677457809448,
+        "test_loss": 0.16540862619876862,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      }
+    ],
+    "data2_pareto": [
+      {
+        "model_id": "gen6_model4",
+        "exp_dir": "data2_pareto",
+        "dataset": "data2",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.13947243988513947,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen7_model0",
+        "exp_dir": "data2_pareto",
+        "dataset": "data2",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.13947243988513947,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      },
+      {
+        "model_id": "gen8_model0",
+        "exp_dir": "data2_pareto",
+        "dataset": "data2",
+        "original_fitness": 0.9838709831237793,
+        "test_accuracy": 0.9838709831237793,
+        "test_loss": 0.13947243988513947,
+        "difference": 0.0,
+        "load_method": "h5",
+        "status": "success"
+      }
+    ]
+  },
+  "summary": [
+    {
+      "experiment": "data_baseline",
+      "best_test_acc": 0.9737903475761414,
+      "orig_fitness": 0.9737903475761414,
+      "diff": 0.0
+    },
+    {
+      "experiment": "data_warmstart",
+      "best_test_acc": 0.9838709831237793,
+      "orig_fitness": 0.9838709831237793,
+      "diff": 0.0
+    },
+    {
+      "experiment": "data_pareto",
+      "best_test_acc": 0.9798387289047241,
+      "orig_fitness": 0.9798387289047241,
+      "diff": 0.0
+    },
+    {
+      "experiment": "data2_baseline",
+      "best_test_acc": 0.9838709831237793,
+      "orig_fitness": 0.9838709831237793,
+      "diff": 0.0
+    },
+    {
+      "experiment": "data2_warmstart",
+      "best_test_acc": 0.9959677457809448,
+      "orig_fitness": 0.9959677457809448,
+      "diff": 0.0
+    },
+    {
+      "experiment": "data2_pareto",
+      "best_test_acc": 0.9838709831237793,
+      "orig_fitness": 0.9838709831237793,
+      "diff": 0.0
+    }
+  ]
+}

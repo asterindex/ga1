@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>kisscc0-t-34-85-tank-military-weapon-russian-t-34-85-5b717839d3b8d4.8869594315341630018672.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/kisscc0-t-34-85-tank-military-weapon-russian-t-34-85-5b717839d3b8d4.8869594315341630018672.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>751</width>
+        <height>750</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>42</xmin>
+            <ymin>25</ymin>
+            <xmax>649</xmax>
+            <ymax>709</ymax>
+        </bndbox>
+    </object>
+</annotation>

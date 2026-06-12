@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>lighting-overview-1920x1080.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/lighting-overview-1920x1080.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>573</xmin>
+            <ymin>302</ymin>
+            <xmax>1711</xmax>
+            <ymax>1017</ymax>
+        </bndbox>
+    </object>
+</annotation>

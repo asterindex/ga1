@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>t80_9.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/t80_9.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>550</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>74</ymin>
+            <xmax>781</xmax>
+            <ymax>485</ymax>
+        </bndbox>
+    </object>
+</annotation>

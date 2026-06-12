@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>russia-hosts-its-annual-olympics-tanks.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/russia-hosts-its-annual-olympics-tanks.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>22</xmin>
+            <ymin>367</ymin>
+            <xmax>464</xmax>
+            <ymax>615</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1120</xmin>
+            <ymin>336</ymin>
+            <xmax>1582</xmax>
+            <ymax>661</ymax>
+        </bndbox>
+    </object>
+</annotation>

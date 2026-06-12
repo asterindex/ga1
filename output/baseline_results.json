@@ -1,0 +1,4132 @@
+{
+  "metadata": {
+    "total_generations": 11,
+    "total_models": 88,
+    "created_at": "2026-06-07T11:06:20.860705"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mode": "full",
+      "timestamp": "2026-06-07T10:31:19.700812",
+      "models": [
+        {
+          "model_id": "gen0_model0",
+          "generation": 0,
+          "index_in_generation": 0,
+          "fitness": 0.8911290168762207,
+          "validation_accuracy": 0.8911290168762207,
+          "trained": true,
+          "weights_file": "gen0_model0.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 64,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.4323939071530296
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004927830645675722,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen0_model1",
+          "generation": 0,
+          "index_in_generation": 1,
+          "fitness": 0.2661290466785431,
+          "validation_accuracy": 0.2661290466785431,
+          "trained": true,
+          "weights_file": "gen0_model1.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 256,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.25718382429414105
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0003636186805979829,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen0_model2",
+          "generation": 0,
+          "index_in_generation": 2,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen0_model3",
+          "generation": 0,
+          "index_in_generation": 3,
+          "fitness": 0.36693549156188965,
+          "validation_accuracy": 0.36693549156188965,
+          "trained": true,
+          "weights_file": "gen0_model3.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "relu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.49188764480379393
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.27630753149312864
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0009082617272031587,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen0_model4",
+          "generation": 0,
+          "index_in_generation": 4,
+          "fitness": 0.22379031777381897,
+          "validation_accuracy": 0.22379031777381897,
+          "trained": true,
+          "weights_file": "gen0_model4.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.30261796324216
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.0008942286018653361,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen0_model5",
+          "generation": 0,
+          "index_in_generation": 5,
+          "fitness": 0.2338709682226181,
+          "validation_accuracy": 0.2338709682226181,
+          "trained": true,
+          "weights_file": "gen0_model5.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 8,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.3850809078845099
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.4602057910404546
+              },
+              {
+                "type": "dense",
+                "neurons": 32,
+                "activation": "relu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.49049080346912577
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.0008874196961547228,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen0_model6",
+          "generation": 0,
+          "index_in_generation": 6,
+          "fitness": 0.9173387289047241,
+          "validation_accuracy": 0.9173387289047241,
+          "trained": true,
+          "weights_file": "gen0_model6.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 64,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.000477662147045467,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen0_model7",
+          "generation": 0,
+          "index_in_generation": 7,
+          "fitness": 0.22983871400356293,
+          "validation_accuracy": 0.22983871400356293,
+          "trained": true,
+          "weights_file": "gen0_model7.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 32,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.32979912515467313
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.405567411092525
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0006268132534966065,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mode": "full",
+      "timestamp": "2026-06-07T10:37:18.321613",
+      "models": [
+        {
+          "model_id": "gen1_model0",
+          "generation": 1,
+          "index_in_generation": 0,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen1_model1",
+          "generation": 1,
+          "index_in_generation": 1,
+          "fitness": 0.2661290466785431,
+          "validation_accuracy": 0.2661290466785431,
+          "trained": true,
+          "weights_file": "gen1_model1.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 8,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "relu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.49188764480379393
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "elu"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0006359402039005708,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen1_model2",
+          "generation": 1,
+          "index_in_generation": 2,
+          "fitness": 0.25604838132858276,
+          "validation_accuracy": 0.25604838132858276,
+          "trained": true,
+          "weights_file": "gen1_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 256,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.25718382429414105
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.27630753149312864
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0006359402039005708,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen1_model3",
+          "generation": 1,
+          "index_in_generation": 3,
+          "fitness": 0.9637096524238586,
+          "validation_accuracy": 0.9637096524238586,
+          "trained": true,
+          "weights_file": "gen1_model3.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004282008725827775,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen1_model4",
+          "generation": 1,
+          "index_in_generation": 4,
+          "fitness": 0.9536290168762207,
+          "validation_accuracy": 0.9536290168762207,
+          "trained": true,
+          "weights_file": "gen1_model4.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 64,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.4323939071530296
+              },
+              {
+                "type": "dense",
+                "neurons": 256,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.25718382429414105
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004282008725827775,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen1_model5",
+          "generation": 1,
+          "index_in_generation": 5,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen1_model6",
+          "generation": 1,
+          "index_in_generation": 6,
+          "fitness": 0.36693549156188965,
+          "validation_accuracy": 0.36693549156188965,
+          "trained": true,
+          "weights_file": "gen0_model3.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "relu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.49188764480379393
+              },
+              {
+                "type": "dense",
+                "neurons": 64,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.27630753149312864
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0009082617272031587,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen1_model7",
+          "generation": 1,
+          "index_in_generation": 7,
+          "fitness": 0.9556451439857483,
+          "validation_accuracy": 0.9556451439857483,
+          "trained": true,
+          "weights_file": "gen1_model7.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005866012138553382,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mode": "full",
+      "timestamp": "2026-06-07T10:43:02.495806",
+      "models": [
+        {
+          "model_id": "gen2_model0",
+          "generation": 2,
+          "index_in_generation": 0,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen2_model1",
+          "generation": 2,
+          "index_in_generation": 1,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen2_model1.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen2_model2",
+          "generation": 2,
+          "index_in_generation": 2,
+          "fitness": 0.9717742204666138,
+          "validation_accuracy": 0.9717742204666138,
+          "trained": true,
+          "weights_file": "gen2_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen2_model3",
+          "generation": 2,
+          "index_in_generation": 3,
+          "fitness": 0.9677419066429138,
+          "validation_accuracy": 0.9677419066429138,
+          "trained": true,
+          "weights_file": "gen2_model3.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 8,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 64,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 256,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.25718382429414105
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004282008725827775,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen2_model4",
+          "generation": 2,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 1,
+            "layers": [
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004282008725827775,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen2_model5",
+          "generation": 2,
+          "index_in_generation": 5,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen2_model6",
+          "generation": 2,
+          "index_in_generation": 6,
+          "fitness": 0.9556451439857483,
+          "validation_accuracy": 0.9556451439857483,
+          "trained": true,
+          "weights_file": "gen1_model7.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005866012138553382,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen2_model7",
+          "generation": 2,
+          "index_in_generation": 7,
+          "fitness": 0.6774193644523621,
+          "validation_accuracy": 0.6774193644523621,
+          "trained": true,
+          "weights_file": "gen2_model7.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 8,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.4323939071530296
+              },
+              {
+                "type": "dense",
+                "neurons": 256,
+                "activation": "elu"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.25718382429414105
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.0005320705382416742,
+            "batch_size": 16
+          }
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mode": "full",
+      "timestamp": "2026-06-07T10:53:46.637516",
+      "models": [
+        {
+          "model_id": "gen3_model0",
+          "generation": 3,
+          "index_in_generation": 0,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen3_model1",
+          "generation": 3,
+          "index_in_generation": 1,
+          "fitness": 0.9657257795333862,
+          "validation_accuracy": 0.9657257795333862,
+          "trained": true,
+          "weights_file": "gen3_model1.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen3_model2",
+          "generation": 3,
+          "index_in_generation": 2,
+          "fitness": 0.9717742204666138,
+          "validation_accuracy": 0.9717742204666138,
+          "trained": true,
+          "weights_file": "gen3_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen3_model3",
+          "generation": 3,
+          "index_in_generation": 3,
+          "fitness": 0.9475806355476379,
+          "validation_accuracy": 0.9475806355476379,
+          "trained": true,
+          "weights_file": "gen3_model3.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen3_model4",
+          "generation": 3,
+          "index_in_generation": 4,
+          "fitness": 0.5463709831237793,
+          "validation_accuracy": 0.5463709831237793,
+          "trained": true,
+          "weights_file": "gen3_model4.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 5,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 16
+          }
+        },
+        {
+          "model_id": "gen3_model5",
+          "generation": 3,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 1,
+            "layers": [
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen3_model6",
+          "generation": 3,
+          "index_in_generation": 6,
+          "fitness": 0.9677419066429138,
+          "validation_accuracy": 0.9677419066429138,
+          "trained": true,
+          "weights_file": "gen3_model6.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen3_model7",
+          "generation": 3,
+          "index_in_generation": 7,
+          "fitness": 0.9435483813285828,
+          "validation_accuracy": 0.9435483813285828,
+          "trained": true,
+          "weights_file": "gen3_model7.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 5,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 64,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "maxpool",
+                "pool_size": 2
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0005543101178629409,
+            "batch_size": 16
+          }
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mode": "full",
+      "timestamp": "2026-06-07T10:59:48.297070",
+      "models": [
+        {
+          "model_id": "gen4_model0",
+          "generation": 4,
+          "index_in_generation": 0,
+          "fitness": 0.9737903475761414,
+          "validation_accuracy": 0.9737903475761414,
+          "trained": true,
+          "weights_file": "gen0_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model1",
+          "generation": 4,
+          "index_in_generation": 1,
+          "fitness": 0.9415322542190552,
+          "validation_accuracy": 0.9415322542190552,
+          "trained": true,
+          "weights_file": "gen4_model1.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model2",
+          "generation": 4,
+          "index_in_generation": 2,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model3",
+          "generation": 4,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 5,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model4",
+          "generation": 4,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 5,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model5",
+          "generation": 4,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model6",
+          "generation": 4,
+          "index_in_generation": 6,
+          "fitness": 0.9677419066429138,
+          "validation_accuracy": 0.9677419066429138,
+          "trained": true,
+          "weights_file": "gen3_model6.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen4_model7",
+          "generation": 4,
+          "index_in_generation": 7,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mode": "full",
+      "timestamp": "2026-06-07T11:00:48.965942",
+      "models": [
+        {
+          "model_id": "gen5_model0",
+          "generation": 5,
+          "index_in_generation": 0,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model1",
+          "generation": 5,
+          "index_in_generation": 1,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model2",
+          "generation": 5,
+          "index_in_generation": 2,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model3",
+          "generation": 5,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model4",
+          "generation": 5,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model5",
+          "generation": 5,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model6",
+          "generation": 5,
+          "index_in_generation": 6,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen5_model7",
+          "generation": 5,
+          "index_in_generation": 7,
+          "fitness": 0.9415322542190552,
+          "validation_accuracy": 0.9415322542190552,
+          "trained": true,
+          "weights_file": "gen4_model1.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0006804193631431043,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 6,
+      "mode": "full",
+      "timestamp": "2026-06-07T11:01:49.226411",
+      "models": [
+        {
+          "model_id": "gen6_model0",
+          "generation": 6,
+          "index_in_generation": 0,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model1",
+          "generation": 6,
+          "index_in_generation": 1,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model2",
+          "generation": 6,
+          "index_in_generation": 2,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model3",
+          "generation": 6,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model4",
+          "generation": 6,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model5",
+          "generation": 6,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005662226692854564,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model6",
+          "generation": 6,
+          "index_in_generation": 6,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.00042660712553374894,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen6_model7",
+          "generation": 6,
+          "index_in_generation": 7,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 7,
+      "mode": "full",
+      "timestamp": "2026-06-07T11:02:59.519641",
+      "models": [
+        {
+          "model_id": "gen7_model0",
+          "generation": 7,
+          "index_in_generation": 0,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model1",
+          "generation": 7,
+          "index_in_generation": 1,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 1,
+            "layers": [
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005091243223566325,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model2",
+          "generation": 7,
+          "index_in_generation": 2,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.0005091243223566325,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model3",
+          "generation": 7,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model4",
+          "generation": 7,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model5",
+          "generation": 7,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005091243223566325,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model6",
+          "generation": 7,
+          "index_in_generation": 6,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005091243223566325,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen7_model7",
+          "generation": 7,
+          "index_in_generation": 7,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0005091243223566325,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 8,
+      "mode": "full",
+      "timestamp": "2026-06-07T11:04:10.124426",
+      "models": [
+        {
+          "model_id": "gen8_model0",
+          "generation": 8,
+          "index_in_generation": 0,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model1",
+          "generation": 8,
+          "index_in_generation": 1,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.00048057514889222056,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model2",
+          "generation": 8,
+          "index_in_generation": 2,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 11,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.00048057514889222056,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model3",
+          "generation": 8,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model4",
+          "generation": 8,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 1,
+            "layers": [
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004454263446791639,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model5",
+          "generation": 8,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model6",
+          "generation": 8,
+          "index_in_generation": 6,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen8_model7",
+          "generation": 8,
+          "index_in_generation": 7,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.00048057514889222056,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 9,
+      "mode": "full",
+      "timestamp": "2026-06-07T11:05:10.533113",
+      "models": [
+        {
+          "model_id": "gen9_model0",
+          "generation": 9,
+          "index_in_generation": 0,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model1",
+          "generation": 9,
+          "index_in_generation": 1,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model2",
+          "generation": 9,
+          "index_in_generation": 2,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 5,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dropout",
+                "dropout_rate": 0.29664963082260476
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model3",
+          "generation": 9,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 3,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "rmsprop",
+            "learning_rate": 0.0009549736151018052,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model4",
+          "generation": 9,
+          "index_in_generation": 4,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model5",
+          "generation": 9,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model6",
+          "generation": 9,
+          "index_in_generation": 6,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen9_model7",
+          "generation": 9,
+          "index_in_generation": 7,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        }
+      ]
+    },
+    {
+      "generation": 10,
+      "mode": "full",
+      "timestamp": "2026-06-07T11:06:20.856743",
+      "models": [
+        {
+          "model_id": "gen10_model0",
+          "generation": 10,
+          "index_in_generation": 0,
+          "fitness": 0.975806474685669,
+          "validation_accuracy": 0.975806474685669,
+          "trained": true,
+          "weights_file": "gen4_model2.h5",
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model1",
+          "generation": 10,
+          "index_in_generation": 1,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 5,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 32,
+                "kernel_size": 3
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.00029227435890485665,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model2",
+          "generation": 10,
+          "index_in_generation": 2,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model3",
+          "generation": 10,
+          "index_in_generation": 3,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 9,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model4",
+          "generation": 10,
+          "index_in_generation": 4,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 4,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.00047205405984334785,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model5",
+          "generation": 10,
+          "index_in_generation": 5,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 7,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model6",
+          "generation": 10,
+          "index_in_generation": 6,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 6,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "sgd",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        },
+        {
+          "model_id": "gen10_model7",
+          "generation": 10,
+          "index_in_generation": 7,
+          "fitness": 0.0,
+          "validation_accuracy": 0.0,
+          "trained": true,
+          "weights_file": null,
+          "warm_layers_count": 0,
+          "architecture": {
+            "num_layers": 8,
+            "layers": [
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "conv2d",
+                "activation": "relu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "conv2d",
+                "activation": "elu",
+                "filters": 128,
+                "kernel_size": 3
+              },
+              {
+                "type": "batch_norm"
+              },
+              {
+                "type": "flatten"
+              },
+              {
+                "type": "dense",
+                "neurons": 6,
+                "activation": "softmax"
+              }
+            ]
+          },
+          "hyperparameters": {
+            "optimizer": "adam",
+            "learning_rate": 0.0004520259754278086,
+            "batch_size": 32
+          }
+        }
+      ]
+    }
+  ]
+}

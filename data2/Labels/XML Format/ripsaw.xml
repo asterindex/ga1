@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ripsaw-ev3-f4-4-seater-ripsaw-ev2-price-cost-sherp-cost-luxury-super-tank-sherp-off-road-4x4-tank-army-for-sale-ssr-mini-ev2-engine-street-legal-howe-and-howe-ripsaw-top-speed-specs-interior_orig.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ripsaw-ev3-f4-4-seater-ripsaw-ev2-price-cost-sherp-cost-luxury-super-tank-sherp-off-road-4x4-tank-army-for-sale-ssr-mini-ev2-engine-street-legal-howe-and-howe-ripsaw-top-speed-specs-interior_orig.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1100</width>
+        <height>590</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>13</xmin>
+            <ymin>3</ymin>
+            <xmax>1079</xmax>
+            <ymax>572</ymax>
+        </bndbox>
+    </object>
+</annotation>

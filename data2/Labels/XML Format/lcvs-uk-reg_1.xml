@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>lcvs-uk-reg_1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/lcvs-uk-reg_1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>543</width>
+        <height>216</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>123</xmin>
+            <ymin>46</ymin>
+            <xmax>296</xmax>
+            <ymax>181</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>300</xmin>
+            <ymin>43</ymin>
+            <xmax>465</xmax>
+            <ymax>189</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>79</ymin>
+            <xmax>72</xmax>
+            <ymax>149</ymax>
+        </bndbox>
+    </object>
+</annotation>

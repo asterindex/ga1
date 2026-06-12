@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>kisscc0-mil-mi-17-mil-mi-8-helicopter-mil-mi-24-bell-uh-1-mil-mi-17-czech-air-force-camouflage-5b72d53058ccc9.8794786815342523363637.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/kisscc0-mil-mi-17-mil-mi-8-helicopter-mil-mi-24-bell-uh-1-mil-mi-17-czech-air-force-camouflage-5b72d53058ccc9.8794786815342523363637.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>977</width>
+        <height>340</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>29</ymin>
+            <xmax>864</xmax>
+            <ymax>328</ymax>
+        </bndbox>
+    </object>
+</annotation>

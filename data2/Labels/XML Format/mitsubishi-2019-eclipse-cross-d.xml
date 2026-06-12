@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>mitsubishi-2019-eclipse-cross-d.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/mitsubishi-2019-eclipse-cross-d.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>630</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>146</xmin>
+            <ymin>108</ymin>
+            <xmax>1061</xmax>
+            <ymax>579</ymax>
+        </bndbox>
+    </object>
+</annotation>

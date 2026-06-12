@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>indian-military-force-red-road-kolkata-west-bengal-india-st-january-air-displaying-chinook-helicopter-ub-rocket-pod-march-135894209.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/indian-military-force-red-road-kolkata-west-bengal-india-st-january-air-displaying-chinook-helicopter-ub-rocket-pod-march-135894209.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1156</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1016</xmin>
+            <ymin>393</ymin>
+            <xmax>1444</xmax>
+            <ymax>919</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>319</xmin>
+            <ymin>443</ymin>
+            <xmax>717</xmax>
+            <ymax>632</ymax>
+        </bndbox>
+    </object>
+</annotation>

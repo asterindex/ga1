@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>orange-sport-car-top-view-city-vehicle-clipart__k65316105.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/orange-sport-car-top-view-city-vehicle-clipart__k65316105.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>470</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>120</xmin>
+            <ymin>49</ymin>
+            <xmax>325</xmax>
+            <ymax>404</ymax>
+        </bndbox>
+    </object>
+</annotation>

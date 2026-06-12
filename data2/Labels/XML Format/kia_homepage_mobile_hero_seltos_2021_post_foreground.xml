@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>kia_homepage_mobile_hero_seltos_2021_post_foreground.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/kia_homepage_mobile_hero_seltos_2021_post_foreground.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>751</width>
+        <height>447</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>120</xmin>
+            <ymin>99</ymin>
+            <xmax>643</xmax>
+            <ymax>429</ymax>
+        </bndbox>
+    </object>
+</annotation>

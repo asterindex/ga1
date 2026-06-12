@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>nationalherald2F2019-122Faf383136-b5aa-4892-9912-749ef920f5222Fchile_afp.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/nationalherald2F2019-122Faf383136-b5aa-4892-9912-749ef920f5222Fchile_afp.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>768</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>52</ymin>
+            <xmax>926</xmax>
+            <ymax>731</ymax>
+        </bndbox>
+    </object>
+</annotation>

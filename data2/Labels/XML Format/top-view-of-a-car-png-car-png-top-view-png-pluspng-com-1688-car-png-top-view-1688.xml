@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>top-view-of-a-car-png-car-png-top-view-png-pluspng-com-1688-car-png-top-view-1688.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/top-view-of-a-car-png-car-png-top-view-png-pluspng-com-1688-car-png-top-view-1688.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1688</width>
+        <height>891</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>33</xmin>
+            <ymin>31</ymin>
+            <xmax>1672</xmax>
+            <ymax>863</ymax>
+        </bndbox>
+    </object>
+</annotation>

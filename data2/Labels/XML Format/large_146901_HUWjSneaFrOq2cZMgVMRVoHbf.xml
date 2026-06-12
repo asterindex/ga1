@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>large_146901_HUWjSneaFrOq2cZMgVMRVoHbf.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/large_146901_HUWjSneaFrOq2cZMgVMRVoHbf.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1400</width>
+        <height>1400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>529</xmin>
+            <ymin>2</ymin>
+            <xmax>634</xmax>
+            <ymax>431</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>718</xmin>
+            <ymin>428</ymin>
+            <xmax>1241</xmax>
+            <ymax>958</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>683</xmin>
+            <ymin>12</ymin>
+            <xmax>1239</xmax>
+            <ymax>503</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>535</xmin>
+            <ymin>898</ymin>
+            <xmax>1255</xmax>
+            <ymax>1300</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>73</xmin>
+            <ymin>342</ymin>
+            <xmax>565</xmax>
+            <ymax>660</ymax>
+        </bndbox>
+    </object>
+</annotation>

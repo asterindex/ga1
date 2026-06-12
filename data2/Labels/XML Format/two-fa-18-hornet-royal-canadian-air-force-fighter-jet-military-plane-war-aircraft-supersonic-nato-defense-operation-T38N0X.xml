@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>two-fa-18-hornet-royal-canadian-air-force-fighter-jet-military-plane-war-aircraft-supersonic-nato-defense-operation-T38N0X.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/two-fa-18-hornet-royal-canadian-air-force-fighter-jet-military-plane-war-aircraft-supersonic-nato-defense-operation-T38N0X.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>910</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>538</xmin>
+            <ymin>365</ymin>
+            <xmax>809</xmax>
+            <ymax>714</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>727</xmin>
+            <ymin>49</ymin>
+            <xmax>1006</xmax>
+            <ymax>393</ymax>
+        </bndbox>
+    </object>
+</annotation>

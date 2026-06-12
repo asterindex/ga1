@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>military-tank-aiming-a-bowl-of-salad-stock-image__k12580390.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/military-tank-aiming-a-bowl-of-salad-stock-image__k12580390.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>319</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>326</xmin>
+            <ymin>150</ymin>
+            <xmax>436</xmax>
+            <ymax>225</ymax>
+        </bndbox>
+    </object>
+</annotation>

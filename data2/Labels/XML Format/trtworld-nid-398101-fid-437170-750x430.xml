@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>trtworld-nid-398101-fid-437170-750x430.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/trtworld-nid-398101-fid-437170-750x430.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>750</width>
+        <height>430</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>32</xmin>
+            <ymin>219</ymin>
+            <xmax>669</xmax>
+            <ymax>391</ymax>
+        </bndbox>
+    </object>
+</annotation>

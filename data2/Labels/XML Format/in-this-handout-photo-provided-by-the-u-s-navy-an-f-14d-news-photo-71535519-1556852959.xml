@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>in-this-handout-photo-provided-by-the-u-s-navy-an-f-14d-news-photo-71535519-1556852959.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/in-this-handout-photo-provided-by-the-u-s-navy-an-f-14d-news-photo-71535519-1556852959.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3000</width>
+        <height>1742</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>227</xmin>
+            <ymin>160</ymin>
+            <xmax>2643</xmax>
+            <ymax>1560</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>m113_top_view.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/m113_top_view.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1531</width>
+        <height>918</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>56</ymin>
+            <xmax>1508</xmax>
+            <ymax>889</ymax>
+        </bndbox>
+    </object>
+</annotation>

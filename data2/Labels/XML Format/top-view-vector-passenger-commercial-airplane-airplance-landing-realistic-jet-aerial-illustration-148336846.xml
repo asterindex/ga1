@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>top-view-vector-passenger-commercial-airplane-airplance-landing-realistic-jet-aerial-illustration-148336846.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/top-view-vector-passenger-commercial-airplane-airplance-landing-realistic-jet-aerial-illustration-148336846.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1199</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>100</xmin>
+            <ymin>175</ymin>
+            <xmax>912</xmax>
+            <ymax>1035</ymax>
+        </bndbox>
+    </object>
+</annotation>

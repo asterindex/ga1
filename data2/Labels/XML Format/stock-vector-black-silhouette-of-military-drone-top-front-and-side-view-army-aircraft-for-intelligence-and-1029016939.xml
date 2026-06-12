@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>stock-vector-black-silhouette-of-military-drone-top-front-and-side-view-army-aircraft-for-intelligence-and-1029016939.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/stock-vector-black-silhouette-of-military-drone-top-front-and-side-view-army-aircraft-for-intelligence-and-1029016939.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>267</xmin>
+            <ymin>90</ymin>
+            <xmax>433</xmax>
+            <ymax>179</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>23</xmin>
+            <ymin>17</ymin>
+            <xmax>333</xmax>
+            <ymax>84</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>122</ymin>
+            <xmax>267</xmax>
+            <ymax>290</ymax>
+        </bndbox>
+    </object>
+</annotation>

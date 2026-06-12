@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>stock-illustration-silhouette-helicopter-helicopter-three-views-top-view-side-front-realistic-image-white-background-image.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/stock-illustration-silhouette-helicopter-helicopter-three-views-top-view-side-front-realistic-image-white-background-image.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1560</width>
+        <height>1148</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>577</xmin>
+            <ymin>371</ymin>
+            <xmax>1521</xmax>
+            <ymax>844</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>163</xmin>
+            <ymin>702</ymin>
+            <xmax>832</xmax>
+            <ymax>1007</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>73</ymin>
+            <xmax>909</xmax>
+            <ymax>411</ymax>
+        </bndbox>
+    </object>
+</annotation>

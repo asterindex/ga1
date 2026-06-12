@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>smart-car-rs-topview-illustration-high-res-stock-photography-986605878-1556201850.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/smart-car-rs-topview-illustration-high-res-stock-photography-986605878-1556201850.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1732</width>
+        <height>1732</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>680</xmin>
+            <ymin>471</ymin>
+            <xmax>1103</xmax>
+            <ymax>1236</ymax>
+        </bndbox>
+    </object>
+</annotation>

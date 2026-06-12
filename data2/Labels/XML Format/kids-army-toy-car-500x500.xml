@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>kids-army-toy-car-500x500.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/kids-army-toy-car-500x500.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>187</xmin>
+            <ymin>98</ymin>
+            <xmax>451</xmax>
+            <ymax>445</ymax>
+        </bndbox>
+    </object>
+</annotation>

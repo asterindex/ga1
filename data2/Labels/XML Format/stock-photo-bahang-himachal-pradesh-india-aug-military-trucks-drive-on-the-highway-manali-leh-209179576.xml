@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>stock-photo-bahang-himachal-pradesh-india-aug-military-trucks-drive-on-the-highway-manali-leh-209179576.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/stock-photo-bahang-himachal-pradesh-india-aug-military-trucks-drive-on-the-highway-manali-leh-209179576.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1500</width>
+        <height>1101</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>478</xmin>
+            <ymin>285</ymin>
+            <xmax>1156</xmax>
+            <ymax>878</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1276</xmin>
+            <ymin>536</ymin>
+            <xmax>1486</xmax>
+            <ymax>721</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>pakistan-f-16-pilots-fired-4-5-amraams-at-indian-planes-from-40-50-km.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/pakistan-f-16-pilots-fired-4-5-amraams-at-indian-planes-from-40-50-km.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>244</xmin>
+            <ymin>329</ymin>
+            <xmax>1076</xmax>
+            <ymax>696</ymax>
+        </bndbox>
+    </object>
+</annotation>

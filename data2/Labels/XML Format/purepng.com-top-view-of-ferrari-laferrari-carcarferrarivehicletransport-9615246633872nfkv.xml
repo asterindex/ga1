@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>purepng.com-top-view-of-ferrari-laferrari-carcarferrarivehicletransport-9615246633872nfkv.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/purepng.com-top-view-of-ferrari-laferrari-carcarferrarivehicletransport-9615246633872nfkv.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>1010</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>55</xmin>
+            <ymin>12</ymin>
+            <xmax>1207</xmax>
+            <ymax>921</ymax>
+        </bndbox>
+    </object>
+</annotation>

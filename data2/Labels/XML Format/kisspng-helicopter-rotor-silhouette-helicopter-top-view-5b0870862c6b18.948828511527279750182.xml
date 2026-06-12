@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>kisspng-helicopter-rotor-silhouette-helicopter-top-view-5b0870862c6b18.948828511527279750182.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/kisspng-helicopter-rotor-silhouette-helicopter-top-view-5b0870862c6b18.948828511527279750182.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>20</xmin>
+            <ymin>6</ymin>
+            <xmax>775</xmax>
+            <ymax>313</ymax>
+        </bndbox>
+    </object>
+</annotation>

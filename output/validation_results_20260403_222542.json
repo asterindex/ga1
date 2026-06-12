@@ -1,0 +1,78 @@
+{
+  "validation_date": "2026-04-03T22:25:42.074019",
+  "total_models": 10,
+  "successful": 10,
+  "failed": 0,
+  "results": [
+    {
+      "model_id": "gen0_model0",
+      "original_fitness": 0.9536290168762207,
+      "validated_accuracy": 0.9536290168762207,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model1",
+      "original_fitness": 0.9274193644523621,
+      "validated_accuracy": 0.9274193644523621,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model2",
+      "original_fitness": 0.9495967626571655,
+      "validated_accuracy": 0.9495967626571655,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model3",
+      "original_fitness": 0.8145161271095276,
+      "validated_accuracy": 0.8145161271095276,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model4",
+      "original_fitness": 0.29032257199287415,
+      "validated_accuracy": 0.29032257199287415,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model5",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model6",
+      "original_fitness": 0.9637096524238586,
+      "validated_accuracy": 0.9637096524238586,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen0_model7",
+      "original_fitness": 0.4334677457809448,
+      "validated_accuracy": 0.002016128972172737,
+      "difference": -0.4314516168087721,
+      "status": "❌ ВІДРІЗНЯЄТЬСЯ"
+    },
+    {
+      "model_id": "gen1_model0",
+      "original_fitness": 0.9717742204666138,
+      "validated_accuracy": 0.9717742204666138,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    },
+    {
+      "model_id": "gen1_model1",
+      "original_fitness": 0.9294354915618896,
+      "validated_accuracy": 0.9294354915618896,
+      "difference": 0.0,
+      "status": "✅ ІДЕНТИЧНО"
+    }
+  ]
+}

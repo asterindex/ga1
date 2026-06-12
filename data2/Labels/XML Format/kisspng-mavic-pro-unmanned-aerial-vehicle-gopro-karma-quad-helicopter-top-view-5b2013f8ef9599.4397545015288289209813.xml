@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>kisspng-mavic-pro-unmanned-aerial-vehicle-gopro-karma-quad-helicopter-top-view-5b2013f8ef9599.4397545015288289209813.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/kisspng-mavic-pro-unmanned-aerial-vehicle-gopro-karma-quad-helicopter-top-view-5b2013f8ef9599.4397545015288289209813.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>260</width>
+        <height>260</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>41</xmin>
+            <ymin>29</ymin>
+            <xmax>213</xmax>
+            <ymax>228</ymax>
+        </bndbox>
+    </object>
+</annotation>

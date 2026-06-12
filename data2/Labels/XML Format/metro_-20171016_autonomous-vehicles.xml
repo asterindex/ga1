@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>metro_-20171016_autonomous-vehicles.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/metro_-20171016_autonomous-vehicles.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2700</width>
+        <height>1800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2291</xmin>
+            <ymin>647</ymin>
+            <xmax>2696</xmax>
+            <ymax>1259</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>841</xmin>
+            <ymin>790</ymin>
+            <xmax>1387</xmax>
+            <ymax>1648</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>795</ymin>
+            <xmax>828</xmax>
+            <ymax>1789</ymax>
+        </bndbox>
+    </object>
+</annotation>

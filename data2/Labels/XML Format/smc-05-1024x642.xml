@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>smc-05-1024x642.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/smc-05-1024x642.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>642</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>364</xmin>
+            <ymin>231</ymin>
+            <xmax>602</xmax>
+            <ymax>331</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>614</xmin>
+            <ymin>252</ymin>
+            <xmax>841</xmax>
+            <ymax>369</ymax>
+        </bndbox>
+    </object>
+</annotation>

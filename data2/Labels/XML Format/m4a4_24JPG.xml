@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>m4a4_24JPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/m4a4_24JPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>959</width>
+        <height>521</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>103</xmin>
+            <ymin>47</ymin>
+            <xmax>814</xmax>
+            <ymax>439</ymax>
+        </bndbox>
+    </object>
+</annotation>

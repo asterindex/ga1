@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>military-truck-for-kids-premium-quality-green-coloured-toyztrend-original-imaf9mfhz6dnxf8b.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/military-truck-for-kids-premium-quality-green-coloured-toyztrend-original-imaf9mfhz6dnxf8b.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>832</width>
+        <height>517</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>4</ymin>
+            <xmax>826</xmax>
+            <ymax>504</ymax>
+        </bndbox>
+    </object>
+</annotation>

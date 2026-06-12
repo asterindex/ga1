@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>qantas_a350-1000-qantas-rr-_photo_source_airbus.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/qantas_a350-1000-qantas-rr-_photo_source_airbus.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>357</width>
+        <height>211</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>53</ymin>
+            <xmax>341</xmax>
+            <ymax>165</ymax>
+        </bndbox>
+    </object>
+</annotation>

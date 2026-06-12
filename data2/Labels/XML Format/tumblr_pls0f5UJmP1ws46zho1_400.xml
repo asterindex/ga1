@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>tumblr_pls0f5UJmP1ws46zho1_400.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/tumblr_pls0f5UJmP1ws46zho1_400.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>446</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>29</xmin>
+            <ymin>15</ymin>
+            <xmax>201</xmax>
+            <ymax>369</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>227</xmin>
+            <ymin>89</ymin>
+            <xmax>382</xmax>
+            <ymax>404</ymax>
+        </bndbox>
+    </object>
+</annotation>

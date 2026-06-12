@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>twentieth-century-italian-military-vehicles-heavy-armored-centauro-CC3HHG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/twentieth-century-italian-military-vehicles-heavy-armored-centauro-CC3HHG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>871</width>
+        <height>1390</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>174</xmin>
+            <ymin>145</ymin>
+            <xmax>725</xmax>
+            <ymax>1303</ymax>
+        </bndbox>
+    </object>
+</annotation>

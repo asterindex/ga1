@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>merlin_140808873_055aa546-ff75-4327-93ca-8363edd42fff-articleLarge.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/merlin_140808873_055aa546-ff75-4327-93ca-8363edd42fff-articleLarge.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>107</ymin>
+            <xmax>592</xmax>
+            <ymax>252</ymax>
+        </bndbox>
+    </object>
+</annotation>

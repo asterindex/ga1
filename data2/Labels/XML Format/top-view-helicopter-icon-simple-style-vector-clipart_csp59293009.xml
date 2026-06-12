@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>top-view-helicopter-icon-simple-style-vector-clipart_csp59293009.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/top-view-helicopter-icon-simple-style-vector-clipart_csp59293009.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>359</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>4</xmin>
+            <ymin>53</ymin>
+            <xmax>414</xmax>
+            <ymax>322</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>the-us-imposed-new-sanctions-on-irans-mahan-air.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/the-us-imposed-new-sanctions-on-irans-mahan-air.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>675</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>382</ymin>
+            <xmax>1125</xmax>
+            <ymax>567</ymax>
+        </bndbox>
+    </object>
+</annotation>

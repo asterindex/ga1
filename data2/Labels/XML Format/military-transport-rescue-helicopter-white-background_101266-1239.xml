@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>military-transport-rescue-helicopter-white-background_101266-1239.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/military-transport-rescue-helicopter-white-background_101266-1239.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>626</width>
+        <height>291</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>17</xmin>
+            <ymin>32</ymin>
+            <xmax>529</xmax>
+            <ymax>195</ymax>
+        </bndbox>
+    </object>
+</annotation>

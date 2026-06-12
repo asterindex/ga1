@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>new16.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/new16.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1440</width>
+        <height>684</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>123</xmin>
+            <ymin>99</ymin>
+            <xmax>507</xmax>
+            <ymax>575</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>272</xmin>
+            <ymin>88</ymin>
+            <xmax>935</xmax>
+            <ymax>597</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>866</xmin>
+            <ymin>112</ymin>
+            <xmax>1295</xmax>
+            <ymax>515</ymax>
+        </bndbox>
+    </object>
+</annotation>

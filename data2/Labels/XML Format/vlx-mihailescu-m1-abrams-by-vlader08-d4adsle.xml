@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>vlx-mihailescu-m1-abrams-by-vlader08-d4adsle.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/vlx-mihailescu-m1-abrams-by-vlader08-d4adsle.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1390</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>68</xmin>
+            <ymin>229</ymin>
+            <xmax>1696</xmax>
+            <ymax>1378</ymax>
+        </bndbox>
+    </object>
+</annotation>

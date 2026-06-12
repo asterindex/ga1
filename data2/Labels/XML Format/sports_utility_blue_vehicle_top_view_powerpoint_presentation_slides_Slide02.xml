@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>sports_utility_blue_vehicle_top_view_powerpoint_presentation_slides_Slide02.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/sports_utility_blue_vehicle_top_view_powerpoint_presentation_slides_Slide02.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>260</width>
+        <height>195</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>3</xmin>
+            <ymin>32</ymin>
+            <xmax>255</xmax>
+            <ymax>144</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>martin-sabran-msabran-militarychopperrevision-concept1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/martin-sabran-msabran-militarychopperrevision-concept1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>687</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1230</xmin>
+            <ymin>285</ymin>
+            <xmax>1831</xmax>
+            <ymax>542</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1227</xmin>
+            <ymin>48</ymin>
+            <xmax>1843</xmax>
+            <ymax>277</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>198</xmin>
+            <ymin>49</ymin>
+            <xmax>1081</xmax>
+            <ymax>453</ymax>
+        </bndbox>
+    </object>
+</annotation>

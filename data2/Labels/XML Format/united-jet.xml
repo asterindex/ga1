@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>united-jet.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/united-jet.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1430</width>
+        <height>1430</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>53</xmin>
+            <ymin>72</ymin>
+            <xmax>1325</xmax>
+            <ymax>1243</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>sports-car-set-in-flat-design-style-clip-art__k64797578.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/sports-car-set-in-flat-design-style-clip-art__k64797578.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>269</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>109</ymin>
+            <xmax>279</xmax>
+            <ymax>233</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>296</xmin>
+            <ymin>122</ymin>
+            <xmax>422</xmax>
+            <ymax>223</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>294</xmin>
+            <ymin>14</ymin>
+            <xmax>423</xmax>
+            <ymax>90</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>10</ymin>
+            <xmax>277</xmax>
+            <ymax>96</ymax>
+        </bndbox>
+    </object>
+</annotation>

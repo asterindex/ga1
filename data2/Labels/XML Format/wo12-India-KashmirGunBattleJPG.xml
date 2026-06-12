@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>wo12-India-KashmirGunBattleJPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/wo12-India-KashmirGunBattleJPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1274</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>83</ymin>
+            <xmax>857</xmax>
+            <ymax>1078</ymax>
+        </bndbox>
+    </object>
+</annotation>

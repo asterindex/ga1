@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>white-car-top-view-vector-illustration-flat-design-auto-transport-concepts-infographic-icons-web-85600125.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/white-car-top-view-vector-illustration-flat-design-auto-transport-concepts-infographic-icons-web-85600125.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>909</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>123</xmin>
+            <ymin>132</ymin>
+            <xmax>1158</xmax>
+            <ymax>660</ymax>
+        </bndbox>
+    </object>
+</annotation>

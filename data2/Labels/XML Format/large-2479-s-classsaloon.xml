@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>large-2479-s-classsaloon.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/large-2479-s-classsaloon.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>596</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>88</ymin>
+            <xmax>768</xmax>
+            <ymax>535</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>tiananmen-square-front.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/tiananmen-square-front.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>110</xmin>
+            <ymin>390</ymin>
+            <xmax>688</xmax>
+            <ymax>794</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>525</xmin>
+            <ymin>187</ymin>
+            <xmax>910</xmax>
+            <ymax>529</ymax>
+        </bndbox>
+    </object>
+</annotation>

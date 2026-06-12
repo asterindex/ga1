@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>military-aac-image.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/military-aac-image.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>139</ymin>
+            <xmax>470</xmax>
+            <ymax>370</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>416</xmin>
+            <ymin>296</ymin>
+            <xmax>751</xmax>
+            <ymax>388</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>553</xmin>
+            <ymin>395</ymin>
+            <xmax>724</xmax>
+            <ymax>441</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>751</xmin>
+            <ymin>401</ymin>
+            <xmax>872</xmax>
+            <ymax>445</ymax>
+        </bndbox>
+    </object>
+</annotation>

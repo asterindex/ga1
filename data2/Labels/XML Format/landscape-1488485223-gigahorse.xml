@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>landscape-1488485223-gigahorse.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/landscape-1488485223-gigahorse.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>58</xmin>
+            <ymin>0</ymin>
+            <xmax>1142</xmax>
+            <ymax>624</ymax>
+        </bndbox>
+    </object>
+</annotation>

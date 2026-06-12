@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>marines-2018-12-06t145759z-842384219-rc1645bf32f0-rtrmadp-3-usa-military-accident.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/marines-2018-12-06t145759z-842384219-rc1645bf32f0-rtrmadp-3-usa-military-accident.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3266</width>
+        <height>2060</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>768</xmin>
+            <ymin>1386</ymin>
+            <xmax>1400</xmax>
+            <ymax>1658</ymax>
+        </bndbox>
+    </object>
+</annotation>

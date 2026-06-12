@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>new6.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/new6.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>60</xmin>
+            <ymin>45</ymin>
+            <xmax>270</xmax>
+            <ymax>203</ymax>
+        </bndbox>
+    </object>
+</annotation>

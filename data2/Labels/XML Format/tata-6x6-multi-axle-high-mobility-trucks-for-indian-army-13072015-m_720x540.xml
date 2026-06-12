@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>tata-6x6-multi-axle-high-mobility-trucks-for-indian-army-13072015-m_720x540.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/tata-6x6-multi-axle-high-mobility-trucks-for-indian-army-13072015-m_720x540.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>720</width>
+        <height>540</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>83</xmin>
+            <ymin>129</ymin>
+            <xmax>590</xmax>
+            <ymax>387</ymax>
+        </bndbox>
+    </object>
+</annotation>

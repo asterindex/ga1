@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>s-400-triumph_650x400_41468589421.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/s-400-triumph_650x400_41468589421.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>650</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>52</ymin>
+            <xmax>644</xmax>
+            <ymax>349</ymax>
+        </bndbox>
+    </object>
+</annotation>

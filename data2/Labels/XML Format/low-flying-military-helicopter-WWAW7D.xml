@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>low-flying-military-helicopter-WWAW7D.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/low-flying-military-helicopter-WWAW7D.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>955</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>301</xmin>
+            <ymin>165</ymin>
+            <xmax>979</xmax>
+            <ymax>606</ymax>
+        </bndbox>
+    </object>
+</annotation>

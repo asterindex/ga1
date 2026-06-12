@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>military-tank-side-and-top-view-drawing__k70090272.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/military-tank-side-and-top-view-drawing__k70090272.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>433</width>
+        <height>470</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>25</xmin>
+            <ymin>209</ymin>
+            <xmax>406</xmax>
+            <ymax>436</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>22</ymin>
+            <xmax>395</xmax>
+            <ymax>191</ymax>
+        </bndbox>
+    </object>
+</annotation>

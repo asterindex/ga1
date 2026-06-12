@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>purepng.com-lotus-evora-top-view-carcarvehicletransportlotus-961524668240xnquy.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/purepng.com-lotus-evora-top-view-carcarvehicletransportlotus-961524668240xnquy.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>1069</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>76</xmin>
+            <ymin>61</ymin>
+            <xmax>1179</xmax>
+            <ymax>998</ymax>
+        </bndbox>
+    </object>
+</annotation>

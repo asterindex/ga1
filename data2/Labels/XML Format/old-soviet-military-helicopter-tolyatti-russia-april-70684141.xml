@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>old-soviet-military-helicopter-tolyatti-russia-april-70684141.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/old-soviet-military-helicopter-tolyatti-russia-april-70684141.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>957</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>112</xmin>
+            <ymin>84</ymin>
+            <xmax>1218</xmax>
+            <ymax>782</ymax>
+        </bndbox>
+    </object>
+</annotation>

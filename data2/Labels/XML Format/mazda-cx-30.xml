@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>mazda-cx-30.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/mazda-cx-30.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>688</width>
+        <height>457</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>35</xmin>
+            <ymin>130</ymin>
+            <xmax>664</xmax>
+            <ymax>383</ymax>
+        </bndbox>
+    </object>
+</annotation>

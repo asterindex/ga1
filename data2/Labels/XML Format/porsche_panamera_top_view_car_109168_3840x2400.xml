@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>porsche_panamera_top_view_car_109168_3840x2400.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/porsche_panamera_top_view_car_109168_3840x2400.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3840</width>
+        <height>2400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1457</xmin>
+            <ymin>1194</ymin>
+            <xmax>3371</xmax>
+            <ymax>2293</ymax>
+        </bndbox>
+    </object>
+</annotation>

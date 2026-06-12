@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>pg-31-tiananmen-6-ap.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/pg-31-tiananmen-6-ap.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2048</width>
+        <height>1536</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>216</xmin>
+            <ymin>712</ymin>
+            <xmax>899</xmax>
+            <ymax>1295</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1567</xmin>
+            <ymin>245</ymin>
+            <xmax>2016</xmax>
+            <ymax>701</ymax>
+        </bndbox>
+    </object>
+</annotation>

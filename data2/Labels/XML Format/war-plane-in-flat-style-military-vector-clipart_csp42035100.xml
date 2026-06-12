@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>war-plane-in-flat-style-military-vector-clipart_csp42035100.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/war-plane-in-flat-style-military-vector-clipart_csp42035100.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>25</xmin>
+            <ymin>66</ymin>
+            <xmax>257</xmax>
+            <ymax>209</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>200</xmin>
+            <ymin>215</ymin>
+            <xmax>423</xmax>
+            <ymax>262</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>276</xmin>
+            <ymin>25</ymin>
+            <xmax>415</xmax>
+            <ymax>129</ymax>
+        </bndbox>
+    </object>
+</annotation>

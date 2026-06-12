@@ -1,0 +1,4 @@
+tensorflow-macos>=2.13.0
+tensorflow-metal>=1.0.0
+coremltools>=7.0
+

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>main_hero_homepage_desktop.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/main_hero_homepage_desktop.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3281</width>
+        <height>2391</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1320</xmin>
+            <ymin>1212</ymin>
+            <xmax>1948</xmax>
+            <ymax>1644</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2156</xmin>
+            <ymin>1202</ymin>
+            <xmax>2899</xmax>
+            <ymax>1599</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>392</xmin>
+            <ymin>1241</ymin>
+            <xmax>1125</xmax>
+            <ymax>1580</ymax>
+        </bndbox>
+    </object>
+</annotation>
