@@ -52,8 +52,7 @@ output_server/
 
 # Datasets (large files)
 data/
+data2/
 military_*/
 *.zip
-*.record
-*.record
 *.record
