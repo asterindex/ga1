@@ -21,25 +21,25 @@ docker run --rm --gpus all nvidia/cuda:12.0.0-base-ubuntu22.04 nvidia-smi
 ### Варіант B: Вручну
 ```bash
 # 1. Скопіювати на сервер
-scp -r genetic_nas/ user@server:/home/user/
+scp -r ga2/ user@server:/home/user/
 
 # 2. На сервері
-cd ~/genetic_nas
-docker build -t genetic-nas:latest .
+cd ~/ga2
+docker build -t ga2:latest .
 ```
 
 ## 3. Запуск експериментів
 
 ### Тест (2 хв)
 ```bash
-docker-compose run --rm genetic-nas \
+docker-compose run --rm ga2 \
   python3 main.py --mode fast --generations 3
 ```
 
 ### Для статті (1-2 год на GPU)
 ```bash
 # 15 generations
-docker-compose run -d --name nas-main genetic-nas \
+docker-compose run -d --name nas-main ga2 \
   python3 main.py --mode full --generations 15
 
 # Моніторинг
@@ -55,7 +55,7 @@ docker logs -f nas-main
 
 ```bash
 # Логи
-docker logs -f genetic-nas
+docker logs -f ga2
 
 # GPU usage
 watch -n 1 nvidia-smi
@@ -63,7 +63,7 @@ watch -n 1 nvidia-smi
 # Або обидва
 tmux new-session \; \
   split-window -h \; \
-  send-keys 'docker logs -f genetic-nas' C-m \; \
+  send-keys 'docker logs -f ga2' C-m \; \
   select-pane -t 0 \; \
   send-keys 'watch -n 1 nvidia-smi' C-m
 ```
@@ -75,7 +75,7 @@ tmux new-session \; \
 ls -lh output/
 
 # Скачати на локальну машину
-scp -r user@server:/home/user/genetic_nas/output ./output_server
+scp -r user@server:/home/user/ga2/output ./output_server
 
 # Або через Docker
 docker cp nas-main:/app/output ./output_server

@@ -102,13 +102,26 @@ class ModelHistoryTracker:
                 'trained': individual.trained,
                 'weights_file': weights_file,
                 'warm_layers_count': individual.warm_layers_count,
-                
+
+                'complexity': {
+                    'num_params': individual.num_params,
+                    'training_time': individual.training_time,
+                    'pareto_rank': getattr(individual, 'pareto_rank', None),
+                    'crowding_distance': getattr(individual, 'crowding_distance', None),
+                },
+
+                'hardware_metrics': {
+                    'inference_latency_ms': individual.inference_latency_ms,
+                    'model_size_bytes': individual.model_size_bytes,
+                    'peak_ram_mb': individual.peak_ram_mb,
+                },
+
                 # Architecture
                 'architecture': {
                     'num_layers': len(individual.layers),
                     'layers': [self._layer_to_dict(layer) for layer in individual.layers]
                 },
-                
+
                 # Hyperparameters
                 'hyperparameters': {
                     'optimizer': individual.optimizer,

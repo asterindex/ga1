@@ -5,9 +5,9 @@ set -e
 
 # Configuration
 SERVER_USER="anatoly_kot"
-SERVER_HOST="193.200.64.60"
+SERVER_HOST="193.200.64.103"
 SSH_KEY="priv.key.pem"
-SERVER_PATH="/home/$SERVER_USER/genetic_nas"
+SERVER_PATH="/home/$SERVER_USER/ga2"
 
 echo "🚀 Deploying to server: $SERVER_USER@$SERVER_HOST"
 
@@ -23,7 +23,7 @@ rsync -avz -e "ssh -i $SSH_KEY" \
 
 # 2. Build Docker image on server
 echo "🔨 Building Docker image..."
-ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST "cd $SERVER_PATH && docker build -t genetic-nas:latest ."
+ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST "cd $SERVER_PATH && docker build -t ga2:latest ."
 
 # 3. Run experiment
 echo "🧬 Starting experiment..."
@@ -32,8 +32,8 @@ ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST "cd $SERVER_PATH && docker-compose up 
 echo "✅ Deployment complete!"
 echo ""
 echo "📊 Monitoring commands:"
-echo "  ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST 'docker logs -f genetic-nas'"
-echo "  ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST 'docker exec genetic-nas nvidia-smi'"
+echo "  ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST 'docker logs -f ga2'"
+echo "  ssh -i $SSH_KEY $SERVER_USER@$SERVER_HOST 'docker exec ga2 nvidia-smi'"
 echo ""
 echo "📥 Download results:"
 echo "  scp -i $SSH_KEY -r $SERVER_USER@$SERVER_HOST:$SERVER_PATH/output ./output_server"

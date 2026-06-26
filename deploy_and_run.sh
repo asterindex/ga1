@@ -5,9 +5,9 @@ set -e
 
 # Configuration
 SERVER_USER="anatoly_kot"
-SERVER_HOST="193.200.64.60"
+SERVER_HOST="193.200.64.103"
 SSH_KEY="priv.key.pem"
-SERVER_PATH="/home/$SERVER_USER/genetic_nas"
+SERVER_PATH="/home/$SERVER_USER/ga2"
 
 # Check for HF_TOKEN (optional but recommended)
 if [ -z "$HF_TOKEN" ]; then
@@ -44,9 +44,9 @@ echo ""
 # 2. Build Docker image on server
 echo "🔨 Step 2/4: Building Docker image on server..."
 ssh $SERVER_USER@$SERVER_HOST << 'ENDSSH'
-cd ~/genetic_nas
+cd ~/ga2
 echo "Building Docker image..."
-docker build -t genetic-nas:latest . 2>&1 | tail -n 30
+docker build -t ga2:latest . 2>&1 | tail -n 30
 echo "Docker image built successfully!"
 ENDSSH
 
@@ -70,7 +70,7 @@ if [ -n "$HF_TOKEN" ]; then
 fi
 
 ssh $SERVER_USER@$SERVER_HOST << 'ENDSSH'
-cd ~/genetic_nas
+cd ~/ga2
 
 # Load HF_TOKEN if exists
 if [ -f ~/.hf_token_env ]; then
@@ -81,29 +81,29 @@ else
 fi
 
 # Clean previous runs
-docker stop genetic-nas 2>/dev/null || true
-docker rm genetic-nas 2>/dev/null || true
+docker stop ga2 2>/dev/null || true
+docker rm ga2 2>/dev/null || true
 
 # Test run first (fast check)
 echo "Running TensorFlow GPU test..."
-docker run --rm --gpus all genetic-nas:latest \
+docker run --rm --gpus all ga2:latest \
   python3 -c "import tensorflow as tf; print('✅ TensorFlow GPU:', len(tf.config.list_physical_devices('GPU')), 'devices')"
 
 # Start main experiment (using docker run instead of docker-compose)
 echo ""
 echo "Starting main experiment (detached mode)..."
 docker run -d \
-  --name genetic-nas \
+  --name ga2 \
   --gpus all \
   $HF_TOKEN_ARG \
-  -v ~/genetic_nas/output:/app/output \
-  genetic-nas:latest \
+  -v ~/ga2/output:/app/output \
+  ga2:latest \
   python3 main.py --mode fast --generations 10
 
 echo ""
 echo "Experiment started! Checking initial output..."
 sleep 5
-docker logs genetic-nas | tail -n 30
+docker logs ga2 | tail -n 30
 ENDSSH
 
 echo ""
@@ -112,7 +112,7 @@ echo "✅ DEPLOYMENT COMPLETE!"
 echo "=========================================="
 echo ""
 echo "📊 Monitor experiment:"
-echo "  ssh $SERVER_USER@$SERVER_HOST 'docker logs -f genetic-nas'"
+echo "  ssh $SERVER_USER@$SERVER_HOST 'docker logs -f ga2'"
 echo ""
 echo "🔍 Check GPU usage:"
 echo "  ssh $SERVER_USER@$SERVER_HOST 'watch -n 2 nvidia-smi'"
@@ -121,4 +121,4 @@ echo "📥 Download results (after completion):"
 echo "  scp -r $SERVER_USER@$SERVER_HOST:$SERVER_PATH/output ./output_server"
 echo ""
 echo "🛑 Stop experiment:"
-echo "  ssh $SERVER_USER@$SERVER_HOST 'docker stop genetic-nas'"
+echo "  ssh $SERVER_USER@$SERVER_HOST 'docker stop ga2'"

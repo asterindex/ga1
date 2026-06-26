@@ -1,18 +1,29 @@
-# Genetic NAS - Neural Architecture Search
+# ga2 — Hardware-Aware Genetic NAS
 
-A genetic algorithm-based Neural Architecture Search system for Military Vehicles classification.
+Evolutionary Neural Architecture Search for Military Vehicles classification with **hardware-aware optimization** for onboard UAV compute platforms (Jetson / Coral proxy via TFLite on Linux GPU server).
 
 ## Overview
 
-This project implements an evolutionary approach to automatically discover optimal CNN architectures and hyperparameters. The genetic algorithm evolves both the network structure (layers, connections) and training parameters (learning rate, batch size, optimizer) simultaneously.
+The genetic algorithm evolves CNN architecture and hyperparameters. ga2 adds **Hardware-Aware NSGA-II** (`--method hardware`) with 4 objectives:
+
+| Objective | Direction | Source |
+|-----------|-----------|--------|
+| Validation accuracy | maximize | TensorFlow training |
+| Inference latency | minimize | TFLite benchmark |
+| Model size | minimize | TFLite file size |
+| Peak RAM | minimize | tracemalloc during inference |
+
+Comparison methods: `baseline`, `warmstart`, `pareto` (3 objectives: accuracy, params, training time).
+
+**Testing:** server-only via Docker on Linux GPU (`193.200.64.103`, `~/ga2`).
 
 ## Key Features
 
-- **🧬 Genetic Algorithm**: Population-based evolutionary search
-- **⚡ GPU Ready**: Docker + CUDA support for server deployment
-- **📊 Full Tracking**: All evaluated models saved to JSON
-- **🎯 Adaptive Training**: EarlyStopping with up to 100 epochs per model
-- **📈 Best Accuracy Tracking**: Records maximum validation accuracy
+- **Genetic Algorithm**: Population-based evolutionary search
+- **Hardware-Aware NAS**: TFLite export + inference benchmark per model
+- **NSGA-II**: 3-objective (`pareto`) or 4-objective (`hardware`) Pareto selection
+- **GPU Ready**: Docker + CUDA on server
+- **Full Tracking**: All models + hardware metrics saved to JSON
 
 ## Quick Start
 
@@ -22,11 +33,14 @@ This project implements an evolutionary approach to automatically discover optim
 # Install dependencies
 pip install -r requirements.txt
 
-# Fast test (3-5 min)
-python3 main.py --mode fast
+# Fast test
+python3 main.py --mode fast --method baseline
 
-# Full experiment (2-4 hours)
-python3 main.py --mode full --generations 15
+# Hardware-aware NAS (4 objectives + TFLite benchmark)
+python3 main.py --mode full --method hardware --dataset data
+
+# Full experiment suite (4 methods)
+./run_all_experiments_ga2.sh
 ```
 
 ### Server (Docker + GPU)
@@ -35,10 +49,10 @@ See **[SERVER_QUICKSTART.md](SERVER_QUICKSTART.md)** for detailed instructions.
 
 ```bash
 # Build
-docker build -t genetic-nas:latest .
+docker build -t ga2:latest .
 
 # Run
-docker run --gpus all -v $(pwd)/output:/app/output genetic-nas:latest
+docker run --gpus all -v $(pwd)/output:/app/output ga2:latest
 ```
 
 ## Run in Docker (Data Center / Linux GPU)
@@ -115,7 +129,7 @@ Validation accuracy on Military Vehicles test set (496 images). The system recor
 ## Output Structure
 
 ```
-genetic_nas/
+ga2/
 ├── output/
 │   ├── evolution_full_YYYYMMDD_HHMMSS.log  # Timestamped log file
 │   ├── evolution.png                        # Evolution visualization

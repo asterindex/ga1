@@ -2,7 +2,7 @@
 
 ## Підключення
 ```bash
-ssh anatoly_kot@193.200.64.60 -i priv.key.pem
+ssh anatoly_kot@193.200.64.103 -i priv.key.pem
 ```
 
 ## Копіювання проекту на сервер
@@ -10,7 +10,7 @@ ssh anatoly_kot@193.200.64.60 -i priv.key.pem
 ### З локальної машини:
 ```bash
 # Якщо priv.key.pem в поточній директорії
-scp -i priv.key.pem -r ./ anatoly_kot@193.200.64.60:/home/anatoly_kot/genetic_nas/
+scp -i priv.key.pem -r ./ anatoly_kot@193.200.64.103:/home/anatoly_kot/ga2/
 
 # Або rsync (рекомендовано - швидше)
 rsync -avz -e "ssh -i priv.key.pem" \
@@ -18,7 +18,7 @@ rsync -avz -e "ssh -i priv.key.pem" \
   --exclude '__pycache__' \
   --exclude '.git' \
   --exclude 'venv' \
-  ./ anatoly_kot@193.200.64.60:/home/anatoly_kot/genetic_nas/
+  ./ anatoly_kot@193.200.64.103:/home/anatoly_kot/ga2/
 ```
 
 ## На сервері
@@ -32,24 +32,24 @@ nvidia-smi
 
 ### 2. Build Docker image
 ```bash
-cd ~/genetic_nas
-docker build -t genetic-nas:latest .
+cd ~/ga2
+docker build -t ga2:latest .
 
 # Перевірка GPU в Docker
-docker run --rm --gpus all genetic-nas:latest \
+docker run --rm --gpus all ga2:latest \
   python3 -c "import tensorflow as tf; print('GPUs:', tf.config.list_physical_devices('GPU'))"
 ```
 
 ### 3. Швидкий тест (1 хв)
 ```bash
-docker-compose run --rm genetic-nas \
+docker-compose run --rm ga2 \
   python3 main.py --mode fast --phase-1-generations 1 --phase-2-generations 5
 ```
 
 ### 4. Експеримент для статті (30-60 хв)
 ```bash
 # Запуск в фоні
-docker-compose run -d --name nas-experiment genetic-nas \
+docker-compose run -d --name nas-experiment ga2 \
   python3 main.py --mode full --phase-1-generations 15 --phase-2-generations 200
 
 # Моніторинг
@@ -64,13 +64,13 @@ watch -n 2 nvidia-smi
 # Experiment 1
 docker run -d --name exp1 --gpus all \
   -v $(pwd)/output_exp1:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode fast --phase-1-generations 5 --phase-2-generations 50
 
 # Experiment 2  
 docker run -d --name exp2 --gpus all \
   -v $(pwd)/output_exp2:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode full --phase-1-generations 10 --phase-2-generations 100
 
 # Моніторинг обидвох
@@ -90,11 +90,11 @@ docker logs -f exp2
 ### З сервера на локальну машину:
 ```bash
 # На локальній машині
-scp -i priv.key.pem -r anatoly_kot@193.200.64.60:/home/anatoly_kot/genetic_nas/output ./output_server
+scp -i priv.key.pem -r anatoly_kot@193.200.64.103:/home/anatoly_kot/ga2/output ./output_server
 
 # Або rsync
 rsync -avz -e "ssh -i priv.key.pem" \
-  anatoly_kot@193.200.64.60:/home/anatoly_kot/genetic_nas/output/ \
+  anatoly_kot@193.200.64.103:/home/anatoly_kot/ga2/output/ \
   ./output_server/
 ```
 
@@ -123,5 +123,5 @@ POPULATION_SIZE_FULL = 6  # Замість 8
 
 ### Зупинити всі експерименти
 ```bash
-docker ps | grep genetic-nas | awk '{print $1}' | xargs docker stop
+docker ps | grep ga2 | awk '{print $1}' | xargs docker stop
 ```

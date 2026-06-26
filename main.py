@@ -4,7 +4,8 @@ Main file for launching the genetic algorithm NAS.
 Methods:
   baseline  - plain GA, no warm start
   warmstart - GA with Lamarckian warm start
-  pareto    - GA with NSGA-II multi-objective selection
+  pareto    - GA with NSGA-II (accuracy, params, training_time)
+  hardware  - Hardware-Aware NSGA-II (accuracy, latency, size, RAM)
 """
 
 import argparse
@@ -25,7 +26,8 @@ def main():
 Examples:
   python main.py --mode full --method baseline   # plain GA
   python main.py --mode full --method warmstart  # GA + Lamarckian warm start
-  python main.py --mode full --method pareto     # GA + NSGA-II Pareto front
+  python main.py --mode full --method pareto     # GA + NSGA-II (3 objectives)
+  python main.py --mode full --method hardware   # Hardware-Aware NSGA-II (4 obj)
   python main.py --mode fast                     # quick test (4 models, 3 gen)
         """
     )
@@ -33,7 +35,7 @@ Examples:
                         choices=['full', 'fast'],
                         help='full = 50 epochs, fast = 5 epochs')
     parser.add_argument('--method', type=str, default='baseline',
-                        choices=['baseline', 'warmstart', 'pareto'],
+                        choices=['baseline', 'warmstart', 'pareto', 'hardware'],
                         help='Search method (default: baseline)')
     parser.add_argument('--generations', type=int, default=None,
                         help='Number of generations (overrides mode default)')
@@ -110,16 +112,23 @@ Examples:
             pass
         print(f"Random seed: {args.seed}")
 
-    # Configure warm start based on method
+    # Configure method-specific settings
     if args.method == 'warmstart':
         config.WARM_START_ENABLED = True
+        config.HARDWARE_BENCHMARK_ENABLED = False
         print(f"Method: WARM START (epoch reduction: {config.WARM_START_EPOCH_REDUCTION})")
+    elif args.method == 'hardware':
+        config.WARM_START_ENABLED = False
+        config.HARDWARE_BENCHMARK_ENABLED = True
+        print("Method: HARDWARE (NSGA-II, 4 objectives + TFLite benchmark)")
+    elif args.method == 'pareto':
+        config.WARM_START_ENABLED = False
+        config.HARDWARE_BENCHMARK_ENABLED = False
+        print("Method: PARETO (NSGA-II, 3 objectives)")
     else:
         config.WARM_START_ENABLED = False
-        if args.method == 'pareto':
-            print("Method: PARETO (NSGA-II, 3 objectives)")
-        else:
-            print("Method: BASELINE (plain GA)")
+        config.HARDWARE_BENCHMARK_ENABLED = False
+        print("Method: BASELINE (plain GA)")
 
     verbose = args.verbose and not args.quiet
     if args.output:
@@ -147,10 +156,13 @@ Examples:
           f"pop={config.POPULATION_SIZE}  gen={config.NUM_GENERATIONS}")
 
     # Select and run engine
-    if args.method == 'pareto':
+    if args.method in ('pareto', 'hardware'):
         from pareto_evolution import ParetoEvolutionEngine
+        objective_mode = (config.OBJECTIVE_MODE_HARDWARE if args.method == 'hardware'
+                          else config.OBJECTIVE_MODE_STANDARD)
         engine = ParetoEvolutionEngine(
-            mode=args.mode, verbose=verbose, output_dir=output_dir)
+            mode=args.mode, verbose=verbose, output_dir=output_dir,
+            objective_mode=objective_mode)
     else:
         from evolution import EvolutionEngine
         engine = EvolutionEngine(

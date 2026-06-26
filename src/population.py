@@ -94,7 +94,7 @@ class Population:
         
         return new_population
     
-    def pareto_evolve(self) -> 'Population':
+    def pareto_evolve(self, mode: str = config.OBJECTIVE_MODE_STANDARD) -> 'Population':
         """
         Create new generation using NSGA-II crowded-comparison operator.
         Parents are chosen via Pareto rank + crowding distance instead of
@@ -106,7 +106,7 @@ class Population:
         new_population.generation = self.generation + 1
 
         # Assign ranks/distances for current population (used in logging)
-        pareto_mod.assign_ranks(self.individuals)
+        pareto_mod.assign_ranks(self.individuals, mode=mode)
 
         # Elitism: keep the individual with highest accuracy from front 0
         front0 = [ind for ind in self.individuals if getattr(ind, 'pareto_rank', 999) == 0]
@@ -117,7 +117,7 @@ class Population:
         new_individuals = [elite]
 
         # Fill rest with offspring selected by Pareto crowded-comparison
-        pool = pareto_mod.pareto_select(self.individuals, self.size)
+        pool = pareto_mod.pareto_select(self.individuals, self.size, mode=mode)
 
         while len(new_individuals) < self.size:
             parent1 = random.choice(pool).copy()

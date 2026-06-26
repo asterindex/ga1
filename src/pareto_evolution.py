@@ -1,19 +1,11 @@
 """
 ParetoEvolutionEngine - GA with NSGA-II multi-objective selection.
 
-Objectives:
-  1. Maximise val_accuracy
-  2. Minimise num_params
-  3. Minimise training_time
-
-Differences from EvolutionEngine:
-  - population.pareto_evolve() is used instead of population.evolve()
-  - pareto.assign_ranks() is called after each evaluation
-  - History entries include pareto_rank, crowding_distance, num_params, training_time
+Objective modes:
+  standard  - accuracy, num_params, training_time
+  hardware  - accuracy, inference_latency_ms, model_size_bytes, peak_ram_mb
 """
 
-import numpy as np
-import time
 import os
 from datetime import datetime
 from typing import Tuple
@@ -31,21 +23,31 @@ class ParetoEvolutionEngine:
     """Evolution engine using NSGA-II multi-objective selection."""
 
     def __init__(self, mode: str = config.MODE_FULL, verbose: bool = True,
-                 output_dir: str = 'output'):
+                 output_dir: str = 'output',
+                 objective_mode: str = config.OBJECTIVE_MODE_STANDARD):
         self.mode = mode
         self.verbose = verbose
         self.output_dir = output_dir
+        self.objective_mode = objective_mode
         self.epochs = (config.TRAINING_EPOCHS_FULL if mode == config.MODE_FULL
                        else config.TRAINING_EPOCHS_FAST)
+
+        method = ('hardware' if objective_mode == config.OBJECTIVE_MODE_HARDWARE
+                  else 'pareto')
+
+        if objective_mode == config.OBJECTIVE_MODE_HARDWARE:
+            config.HARDWARE_BENCHMARK_ENABLED = True
+        else:
+            config.HARDWARE_BENCHMARK_ENABLED = False
 
         os.makedirs(output_dir, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_filename = f"evolution_pareto_{mode.lower()}_{timestamp}.log"
+        log_filename = f"evolution_{method}_{mode.lower()}_{timestamp}.log"
 
         self.history_tracker = ModelHistoryTracker(
             history_dir=os.path.join(output_dir, 'model_history'),
-            method='pareto',
+            method=method,
             dataset=config.DATASET_PATH,
         )
         self.logger = get_logger(
@@ -55,12 +57,19 @@ class ParetoEvolutionEngine:
         import fitness as fitness_module
         self.fitness = fitness_module
 
-        self.logger.header("Pareto GA (NSGA-II) - Ініціалізація")
+        title = ("Hardware-Aware GA (NSGA-II, 4 obj)" if objective_mode == config.OBJECTIVE_MODE_HARDWARE
+                 else "Pareto GA (NSGA-II, 3 obj)")
+        self.logger.header(f"{title} - Ініціалізація")
         self.logger.info(f"Режим: {mode.upper()}")
         self.logger.info(f"Епох тренування: {self.epochs}")
         self.logger.info(f"Розмір популяції: {config.POPULATION_SIZE}")
         self.logger.info(f"Кількість поколінь: {config.NUM_GENERATIONS}")
-        self.logger.info("Цілі: accuracy (max) | num_params (min) | training_time (min)")
+        if objective_mode == config.OBJECTIVE_MODE_HARDWARE:
+            self.logger.info(
+                "Цілі: accuracy (max) | latency_ms (min) | model_size (min) | peak_ram (min)")
+        else:
+            self.logger.info(
+                "Цілі: accuracy (max) | num_params (min) | training_time (min)")
 
     # ------------------------------------------------------------------
     def load_data(self):
@@ -108,13 +117,19 @@ class ParetoEvolutionEngine:
                 if trained_model is not None:
                     trained_models[i] = trained_model
 
-                self.logger.info(
-                    f"  acc={accuracy:.4f}  "
-                    f"params={individual.num_params:,}  "
-                    f"time={individual.training_time:.1f}s")
+                if self.objective_mode == config.OBJECTIVE_MODE_HARDWARE:
+                    self.logger.info(
+                        f"  acc={accuracy:.4f}  "
+                        f"latency={individual.inference_latency_ms:.2f}ms  "
+                        f"size={individual.model_size_bytes:,}B  "
+                        f"ram={individual.peak_ram_mb:.2f}MB")
+                else:
+                    self.logger.info(
+                        f"  acc={accuracy:.4f}  "
+                        f"params={individual.num_params:,}  "
+                        f"time={individual.training_time:.1f}s")
 
-        # Assign Pareto ranks after full evaluation
-        pareto_mod.assign_ranks(population.individuals)
+        pareto_mod.assign_ranks(population.individuals, mode=self.objective_mode)
 
         front0 = [ind for ind in population.individuals
                   if getattr(ind, 'pareto_rank', 999) == 0]
@@ -163,12 +178,11 @@ class ParetoEvolutionEngine:
 
             self._log_generation_summary(population, 0)
 
-        # Main loop
         for generation in range(start_generation, config.NUM_GENERATIONS):
             self.logger.header(
                 f"Покоління {generation + 1}/{config.NUM_GENERATIONS}")
 
-            population = population.pareto_evolve()
+            population = population.pareto_evolve(mode=self.objective_mode)
 
             trained_models = self.evaluate_population(
                 population, X_train, y_train, X_val, y_val,
@@ -187,11 +201,20 @@ class ParetoEvolutionEngine:
 
         best = max(population.individuals, key=lambda x: x.fitness)
         self.logger.final_summary(best.fitness, config.NUM_GENERATIONS)
-        self.logger.info(
-            f"Найкраща модель: acc={best.fitness:.4f}  "
-            f"params={best.num_params:,}  "
-            f"time={best.training_time:.1f}s  "
-            f"pareto_rank={getattr(best, 'pareto_rank', '?')}")
+
+        if self.objective_mode == config.OBJECTIVE_MODE_HARDWARE:
+            self.logger.info(
+                f"Найкраща модель: acc={best.fitness:.4f}  "
+                f"latency={best.inference_latency_ms:.2f}ms  "
+                f"size={best.model_size_bytes:,}B  "
+                f"ram={best.peak_ram_mb:.2f}MB  "
+                f"pareto_rank={getattr(best, 'pareto_rank', '?')}")
+        else:
+            self.logger.info(
+                f"Найкраща модель: acc={best.fitness:.4f}  "
+                f"params={best.num_params:,}  "
+                f"time={best.training_time:.1f}s  "
+                f"pareto_rank={getattr(best, 'pareto_rank', '?')}")
 
         stats = self.history_tracker.get_statistics()
         self.logger.success(
@@ -211,6 +234,12 @@ class ParetoEvolutionEngine:
             if getattr(ind, 'pareto_rank', 999) == 0)
 
         self.logger.generation_summary(generation, best.fitness, avg, worst.fitness)
-        self.logger.info(
-            f"  Pareto front 0 size: {front0_size}  "
-            f"| best params: {best.num_params:,}")
+
+        if self.objective_mode == config.OBJECTIVE_MODE_HARDWARE:
+            self.logger.info(
+                f"  Pareto front 0 size: {front0_size}  "
+                f"| best latency: {best.inference_latency_ms:.2f}ms")
+        else:
+            self.logger.info(
+                f"  Pareto front 0 size: {front0_size}  "
+                f"| best params: {best.num_params:,}")

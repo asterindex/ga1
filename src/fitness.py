@@ -256,6 +256,16 @@ def evaluate_fitness(chromosome: Chromosome,
         # Зберігаємо метрики складності в хромосому
         chromosome.num_params = int(model.count_params())
         chromosome.training_time = round(time.time() - train_start, 2)
+
+        if config.HARDWARE_BENCHMARK_ENABLED:
+            from hardware_benchmark import benchmark_model, apply_metrics_to_chromosome
+            metrics = benchmark_model(model, input_shape)
+            apply_metrics_to_chromosome(chromosome, metrics)
+            print(
+                f"   HW: latency={chromosome.inference_latency_ms:.2f}ms  "
+                f"size={chromosome.model_size_bytes:,}B  "
+                f"ram={chromosome.peak_ram_mb:.2f}MB"
+            )
         
         # Інформативне логування - показуємо на якій епосі була найкраща accuracy
         if best_epoch < total_epochs:

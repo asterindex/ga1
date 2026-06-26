@@ -4,13 +4,13 @@
 set -e
 
 SERVER_USER="anatoly_kot"
-SERVER_HOST="193.200.64.60"
+SERVER_HOST="193.200.64.103"
 
 echo "🧬 Running all experiments on datacenter"
 echo ""
 
 ssh $SERVER_USER@$SERVER_HOST << 'ENDSSH'
-cd ~/genetic_nas
+cd ~/ga2
 
 # Create experiments directory
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
@@ -26,7 +26,7 @@ echo "🧪 EXPERIMENT 1: Fast + Short"
 echo "=========================================="
 docker run --rm --gpus all \
   -v $(pwd)/$EXPERIMENTS_DIR/exp1:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode fast --phase-1-generations 3 --phase-2-generations 30
 
 echo "✅ Experiment 1 complete"
@@ -38,7 +38,7 @@ echo "🧪 EXPERIMENT 2: Fast + Medium"
 echo "=========================================="
 docker run --rm --gpus all \
   -v $(pwd)/$EXPERIMENTS_DIR/exp2:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode fast --phase-1-generations 5 --phase-2-generations 50
 
 echo "✅ Experiment 2 complete"
@@ -50,7 +50,7 @@ echo "🧪 EXPERIMENT 3: Full + Standard"
 echo "=========================================="
 docker run --rm --gpus all \
   -v $(pwd)/$EXPERIMENTS_DIR/exp3:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode full --phase-1-generations 10 --phase-2-generations 100
 
 echo "✅ Experiment 3 complete"
@@ -62,7 +62,7 @@ echo "🧪 EXPERIMENT 4: Full + Extensive"
 echo "=========================================="
 docker run --rm --gpus all \
   -v $(pwd)/$EXPERIMENTS_DIR/exp4:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode full --phase-1-generations 15 --phase-2-generations 200
 
 echo "✅ Experiment 4 complete"
@@ -130,7 +130,7 @@ echo ""
 echo "📁 Results saved to: $EXPERIMENTS_DIR"
 echo ""
 echo "Download results:"
-echo "  scp -r $SERVER_USER@$SERVER_HOST:~/genetic_nas/$EXPERIMENTS_DIR ./results_$(date +%Y%m%d)"
+echo "  scp -r $SERVER_USER@$SERVER_HOST:~/ga2/$EXPERIMENTS_DIR ./results_$(date +%Y%m%d)"
 
 ENDSSH
 

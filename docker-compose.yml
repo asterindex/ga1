@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  genetic-nas:
+  ga2:
     build: .
-    image: genetic-nas:latest
-    container_name: genetic-nas
+    image: ga2:latest
+    container_name: ga2
     
     # GPU support
     deploy:
@@ -28,4 +28,4 @@ services:
       - CUDA_VISIBLE_DEVICES=0
     
     # Command can be overridden
-    # docker-compose run genetic-nas python3 main.py --mode full --phase-1-generations 10 --phase-2-generations 100
+    # docker-compose run ga2 python3 main.py --mode full --phase-1-generations 10 --phase-2-generations 100

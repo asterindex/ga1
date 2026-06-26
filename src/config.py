@@ -1,5 +1,6 @@
 """
-Конфігурація генетичного алгоритму для NAS
+Конфігурація генетичного алгоритму для Hardware-Aware NAS (ga2).
+Оптимізація архітектури CNN з урахуванням inference latency, model size та RAM.
 """
 
 # Параметри популяції (оптимізовано для швидкості)
@@ -68,3 +69,18 @@ MODE_FAST = 'fast'
 # Ламаркіанський теплий старт
 WARM_START_ENABLED = True       # Вмикач для порівняльного експерименту
 WARM_START_EPOCH_REDUCTION = 0.5  # При warm start: epochs = epochs * 0.5
+
+# Hardware-aware benchmark (TFLite на сервері)
+HARDWARE_BENCHMARK_ENABLED = False
+BENCHMARK_WARMUP = 10
+BENCHMARK_RUNS = 50
+TFLITE_DELEGATE = 'cpu'  # 'cpu' | 'gpu' (optional later)
+
+# Penalty values when benchmark fails
+BENCHMARK_FAIL_LATENCY_MS = 9999.0
+BENCHMARK_FAIL_SIZE_BYTES = 10**9
+BENCHMARK_FAIL_RAM_MB = 9999.0
+
+# NSGA-II objective modes
+OBJECTIVE_MODE_STANDARD = 'standard'   # accuracy, num_params, training_time
+OBJECTIVE_MODE_HARDWARE = 'hardware'   # accuracy, latency, size, ram

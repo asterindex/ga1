@@ -14,8 +14,8 @@ docker run --rm --gpus all nvidia/cuda:12.0.0-base-ubuntu22.04 nvidia-smi
 ### 2. Build Docker image
 ```bash
 # На сервері
-cd /path/to/genetic_nas
-docker build -t genetic-nas:latest .
+cd /path/to/ga2
+docker build -t ga2:latest .
 ```
 
 ---
@@ -26,7 +26,7 @@ docker build -t genetic-nas:latest .
 ```bash
 docker run --rm --gpus all \
   -v $(pwd)/output:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode fast --generations 3
 ```
 
@@ -34,7 +34,7 @@ docker run --rm --gpus all \
 ```bash
 docker run --rm --gpus all \
   -v $(pwd)/output:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode fast --generations 5
 ```
 
@@ -42,7 +42,7 @@ docker run --rm --gpus all \
 ```bash
 docker run --rm --gpus all \
   -v $(pwd)/output:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode full --generations 15
 ```
 
@@ -51,7 +51,7 @@ docker run --rm --gpus all \
 docker run -d --name nas-experiment \
   --gpus all \
   -v $(pwd)/output:/app/output \
-  genetic-nas:latest \
+  ga2:latest \
   python3 main.py --mode full --generations 20
 
 # Моніторинг
@@ -71,7 +71,7 @@ docker stop nas-experiment
 docker-compose up
 
 # Custom parameters
-docker-compose run --rm genetic-nas \
+docker-compose run --rm ga2 \
   python3 main.py --mode full --generations 15
 
 # В фоні
@@ -122,7 +122,7 @@ output/
 ### Копіювання результатів з сервера
 ```bash
 # З сервера на локальну машину
-scp -r user@server:/path/to/genetic_nas/output ./output_server
+scp -r user@server:/path/to/ga2/output ./output_server
 
 # Або через Docker volume
 docker cp nas-experiment:/app/output ./output_server
@@ -134,7 +134,7 @@ docker cp nas-experiment:/app/output ./output_server
 
 ### Експеримент 1: Quick test
 ```bash
-docker-compose run --rm genetic-nas \
+docker-compose run --rm ga2 \
   python3 main.py --mode fast --generations 5
 ```
 **Час:** ~5 хвилин  
@@ -142,7 +142,7 @@ docker-compose run --rm genetic-nas \
 
 ### Експеримент 2: Full run
 ```bash
-docker-compose run --rm genetic-nas \
+docker-compose run --rm ga2 \
   python3 main.py --mode full --generations 15
 ```
 **Час:** ~1-2 години  
@@ -150,7 +150,7 @@ docker-compose run --rm genetic-nas \
 
 ### Експеримент 3: Extended search
 ```bash
-docker-compose run --rm genetic-nas \
+docker-compose run --rm ga2 \
   python3 main.py --mode full --generations 20
 ```
 **Час:** ~2-3 години  
@@ -180,7 +180,7 @@ docker run --gpus all --memory=16g ...
 nvidia-smi
 
 # Перевірити TensorFlow бачить GPU
-docker run --rm --gpus all genetic-nas:latest \
+docker run --rm --gpus all ga2:latest \
   python3 -c "import tensorflow as tf; print('GPUs:', tf.config.list_physical_devices('GPU'))"
 ```
 
@@ -219,7 +219,7 @@ for exp in "${experiments[@]}"; do
   read -r mode p1 p2 <<< "$exp"
   echo "🚀 Running: mode=$mode, phase1=$p1, phase2=$p2"
   
-  docker-compose run --rm genetic-nas \
+  docker-compose run --rm ga2 \
     python3 main.py --mode $mode --phase-1-generations $p1 --phase-2-generations $p2
   
   # Backup results

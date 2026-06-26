@@ -82,6 +82,11 @@ class Chromosome:
         self.num_params: int = 0        # Кількість параметрів моделі
         self.training_time: float = 0.0  # Час тренування в секундах
 
+        # Hardware metrics (TFLite benchmark)
+        self.inference_latency_ms: float = 0.0
+        self.model_size_bytes: int = 0
+        self.peak_ram_mb: float = 0.0
+
         # LR scheduler (еволюціонується як гіперпараметр)
         self.lr_scheduler: str = 'none'  # 'none' | 'step' | 'cosine'
 
@@ -252,6 +257,9 @@ class Chromosome:
             'fitness': self.fitness,
             'num_params': self.num_params,
             'training_time': self.training_time,
+            'inference_latency_ms': self.inference_latency_ms,
+            'model_size_bytes': self.model_size_bytes,
+            'peak_ram_mb': self.peak_ram_mb,
             'warm_layers_count': self.warm_layers_count
         }
     

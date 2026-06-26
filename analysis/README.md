@@ -7,7 +7,7 @@
 Після завершення еволюції запусти основний аналіз:
 
 ```bash
-cd /path/to/genetic_nas
+cd /path/to/ga2
 python3 analysis/analyze_models.py
 ```
 

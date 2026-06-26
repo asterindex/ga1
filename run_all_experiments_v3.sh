@@ -20,7 +20,7 @@ cd "$SCRIPT_DIR"
 POP=12
 GENS=15
 SEED=7
-IMAGE="genetic-nas:latest"
+IMAGE="ga2:latest"
 REBUILD=false
 
 for arg in "$@"; do

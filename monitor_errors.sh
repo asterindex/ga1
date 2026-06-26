@@ -2,8 +2,8 @@
 
 # Моніторинг помилок експерименту на сервері
 
-SERVER="anatoly_kot@193.200.64.60"
-CONTAINER="genetic-nas-military"
+SERVER="anatoly_kot@193.200.64.103"
+CONTAINER="ga2"
 
 echo "🔍 Моніторинг помилок експерименту..."
 echo "======================================"
